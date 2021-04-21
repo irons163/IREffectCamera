@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IRCameraAuthorizationViewController">
+            <connections>
+                <outlet property="step1Label" destination="o2X-v8-h8q" id="ysc-Ec-7qT"/>
+                <outlet property="step2Label" destination="KOM-I8-uHU" id="9ak-c9-ui4"/>
+                <outlet property="step3Label" destination="kjV-si-GIS" id="EMF-jJ-a0Y"/>
+                <outlet property="step4Label" destination="laf-HC-dDI" id="pRZ-a8-2wA"/>
+                <outlet property="subtitleLabel" destination="Wtn-Mo-cr6" id="hEk-FS-Kr3"/>
+                <outlet property="titleLabel" destination="p1T-Za-ePX" id="8OP-uS-fhy"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x2w-kV-xiN">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="teb-FL-IFJ" userLabel="Top View">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                            <subviews>
+                                <button opaque="NO" alpha="0.30000001192092896" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bDn-TR-i4s" customClass="TGTintedButton">
+                                    <rect key="frame" x="364" y="5" width="50" height="40"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="2qH-HY-1Kg"/>
+                                        <constraint firstAttribute="width" constant="50" id="f8W-7J-UGx"/>
+                                    </constraints>
+                                    <state key="normal" image="CameraGrid">
+                                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" alpha="0.30000001192092896" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RHN-6d-mH7" userLabel="Toggle" customClass="TGTintedButton">
+                                    <rect key="frame" x="0.0" y="5" width="50" height="40"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="50" id="3u4-OZ-pYT"/>
+                                        <constraint firstAttribute="height" constant="40" id="Fwx-Cl-z20"/>
+                                    </constraints>
+                                    <state key="normal" image="CameraToggle">
+                                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="0.078431372550000003" green="0.078431372550000003" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstItem="bDn-TR-i4s" firstAttribute="top" secondItem="teb-FL-IFJ" secondAttribute="top" constant="5" id="5DV-gZ-Z4W"/>
+                                <constraint firstItem="RHN-6d-mH7" firstAttribute="top" secondItem="teb-FL-IFJ" secondAttribute="top" constant="5" id="6gq-vb-HC5"/>
+                                <constraint firstAttribute="trailing" secondItem="bDn-TR-i4s" secondAttribute="trailing" id="J1j-Wa-vDo"/>
+                                <constraint firstAttribute="height" constant="50" id="bBh-on-wmD"/>
+                                <constraint firstItem="RHN-6d-mH7" firstAttribute="leading" secondItem="teb-FL-IFJ" secondAttribute="leading" id="dsr-uK-ZqJ"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ugt-C3-UkE" userLabel="Bottom View">
+                            <rect key="frame" x="0.0" y="796" width="414" height="100"/>
+                            <subviews>
+                                <button opaque="NO" alpha="0.30000001192092896" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GrC-h6-x9G" userLabel="Flash" customClass="IRTintedButton">
+                                    <rect key="frame" x="326" y="10" width="80" height="80"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="80" id="Xbl-9j-hT1"/>
+                                        <constraint firstAttribute="height" constant="80" id="cET-tw-n6q"/>
+                                    </constraints>
+                                    <state key="normal" image="CameraFlashAuto"/>
+                                </button>
+                                <button opaque="NO" alpha="0.30000001192092896" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="40f-PT-bZj" userLabel="Shot" customClass="IRTintedButton">
+                                    <rect key="frame" x="168" y="11" width="78" height="78"/>
+                                    <state key="normal" image="CameraShot"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q9T-Tc-Lg0" userLabel="Close" customClass="IRTintedButton">
+                                    <rect key="frame" x="8" y="10" width="80" height="80"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="80" id="tfs-MI-4kt"/>
+                                        <constraint firstAttribute="height" constant="80" id="uOt-lW-uqR"/>
+                                    </constraints>
+                                    <state key="normal" image="CameraClose"/>
+                                    <connections>
+                                        <action selector="closeTapped" destination="-1" eventType="touchUpInside" id="joU-WK-L9m"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="0.078431372550000003" green="0.078431372550000003" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="Q9T-Tc-Lg0" secondAttribute="bottom" constant="10" id="GAl-hw-dtp"/>
+                                <constraint firstAttribute="centerY" secondItem="40f-PT-bZj" secondAttribute="centerY" id="Hez-jz-aAj"/>
+                                <constraint firstAttribute="trailing" secondItem="GrC-h6-x9G" secondAttribute="trailing" constant="8" id="QUp-uB-FNh"/>
+                                <constraint firstItem="Q9T-Tc-Lg0" firstAttribute="leading" secondItem="ugt-C3-UkE" secondAttribute="leading" constant="8" id="YyX-Oq-uhZ"/>
+                                <constraint firstAttribute="bottom" secondItem="GrC-h6-x9G" secondAttribute="bottom" constant="10" id="h4Y-cr-In2"/>
+                                <constraint firstAttribute="height" constant="100" id="nty-j2-qMY"/>
+                                <constraint firstAttribute="centerX" secondItem="40f-PT-bZj" secondAttribute="centerX" id="piM-qs-Qzb"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r6x-3Q-ycj" userLabel="Info View">
+                            <rect key="frame" x="52" y="312" width="310" height="272"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Take photos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p1T-Za-ePX" userLabel="Title Label" customClass="TGTintedLabel">
+                                    <rect key="frame" x="8" y="8" width="294" height="22"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="18"/>
+                                    <color key="textColor" red="0.98755216599999995" green="0.26285848020000002" blue="0.03296157718" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Allow access to your camera to start taking pictures with app" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="244" translatesAutoresizingMaskIntoConstraints="NO" id="Wtn-Mo-cr6" userLabel="Subtitle Label" customClass="TGTintedLabel">
+                                    <rect key="frame" x="8" y="38" width="294" height="65"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                                    <color key="textColor" red="0.98755216599999995" green="0.26285848020000002" blue="0.03296157718" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1. Open the Settings of your device" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o2X-v8-h8q" userLabel="Step1 Label" customClass="TGTintedLabel">
+                                    <rect key="frame" x="8" y="111" width="294" height="19"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
+                                    <color key="textColor" red="0.98755216599999995" green="0.26285848020000002" blue="0.03296157718" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2. Go to Privacy" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KOM-I8-uHU" userLabel="Step2 Label" customClass="TGTintedLabel">
+                                    <rect key="frame" x="8" y="138" width="294" height="20"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
+                                    <color key="textColor" red="0.98755216599999995" green="0.26285848020000002" blue="0.03296157718" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3. Go the Camera" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kjV-si-GIS" userLabel="Step3 Label" customClass="TGTintedLabel">
+                                    <rect key="frame" x="8" y="166" width="294" height="20"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
+                                    <color key="textColor" red="0.98755216599999995" green="0.26285848020000002" blue="0.03296157718" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4. Activate" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="laf-HC-dDI" userLabel="Step4 Label" customClass="TGTintedLabel">
+                                    <rect key="frame" x="8" y="194" width="294" height="20"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
+                                    <color key="textColor" red="0.98755216599999995" green="0.26285848020000002" blue="0.03296157718" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="272" id="MSF-l7-2YC"/>
+                                <constraint firstAttribute="width" constant="310" id="wcc-aj-uf1"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.1176470588" green="0.1176470588" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="tintColor" red="0.98755216599999995" green="0.26285848020000002" blue="0.03296157718" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="centerY" secondItem="r6x-3Q-ycj" secondAttribute="centerY" id="Cgy-Da-Bd1"/>
+                        <constraint firstItem="ugt-C3-UkE" firstAttribute="leading" secondItem="x2w-kV-xiN" secondAttribute="leading" id="KYE-Fo-Mgf"/>
+                        <constraint firstItem="teb-FL-IFJ" firstAttribute="leading" secondItem="x2w-kV-xiN" secondAttribute="leading" id="RMt-4D-snB"/>
+                        <constraint firstAttribute="centerX" secondItem="r6x-3Q-ycj" secondAttribute="centerX" id="Sft-dE-ClA"/>
+                        <constraint firstItem="teb-FL-IFJ" firstAttribute="top" secondItem="x2w-kV-xiN" secondAttribute="top" id="dYS-OF-XM6"/>
+                        <constraint firstAttribute="trailing" secondItem="ugt-C3-UkE" secondAttribute="trailing" id="fju-bb-i7k"/>
+                        <constraint firstAttribute="trailing" secondItem="teb-FL-IFJ" secondAttribute="trailing" id="sZ1-v3-Nbw"/>
+                        <constraint firstAttribute="bottom" secondItem="ugt-C3-UkE" secondAttribute="bottom" id="vo8-nl-LWf"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="x2w-kV-xiN" secondAttribute="bottom" id="5oX-gq-PbI"/>
+                <constraint firstItem="x2w-kV-xiN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Lka-OA-487"/>
+                <constraint firstAttribute="trailing" secondItem="x2w-kV-xiN" secondAttribute="trailing" id="dlo-W3-q3f"/>
+                <constraint firstItem="x2w-kV-xiN" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="ysn-Kw-gbD"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="132" y="90"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="CameraClose" width="26" height="26"/>
+        <image name="CameraFlashAuto" width="41" height="41"/>
+        <image name="CameraGrid" width="26" height="26"/>
+        <image name="CameraShot" width="78" height="78"/>
+        <image name="CameraToggle" width="26" height="26"/>
+    </resources>
+</document>

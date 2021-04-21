@@ -1,0 +1,20 @@
+PODS:
+  - GPUImage (0.1.7)
+  - IRCameraSticker (1.0.0):
+    - GPUImage
+
+DEPENDENCIES:
+  - IRCameraSticker
+
+SPEC REPOS:
+  trunk:
+    - GPUImage
+    - IRCameraSticker
+
+SPEC CHECKSUMS:
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  IRCameraSticker: dfd90c865a13c755b0c666c47b99dd7542a67e5f
+
+PODFILE CHECKSUM: 43cd9203286aba0d7ce72ef597e0b6bd4065d541
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,35 @@
+PODS:
+  - GPUImage (0.1.7)
+  - IRCameraSticker (1.0.0):
+    - GPUImage
+  - IREffectCamera (1.0.0):
+    - IRCameraSticker
+
+DEPENDENCIES:
+  - GPUImage (from `https://github.com/BradLarson/GPUImage.git`, branch `master`)
+  - IREffectCamera (from `../IREffectCamera.podspec`)
+
+SPEC REPOS:
+  trunk:
+    - IRCameraSticker
+
+EXTERNAL SOURCES:
+  GPUImage:
+    :branch: master
+    :git: https://github.com/BradLarson/GPUImage.git
+  IREffectCamera:
+    :path: "../IREffectCamera.podspec"
+
+CHECKOUT OPTIONS:
+  GPUImage:
+    :commit: 167b0389bc6e9dc4bb0121550f91d8d5d6412c53
+    :git: https://github.com/BradLarson/GPUImage.git
+
+SPEC CHECKSUMS:
+  GPUImage: bd7e201b9aa91e85f401ed7a6d9867a07a404693
+  IRCameraSticker: dfd90c865a13c755b0c666c47b99dd7542a67e5f
+  IREffectCamera: aeb43e15690a34887df2fbcaa4fd8d8e7ff30374
+
+PODFILE CHECKSUM: 8aefa8e5e7850fc948b8aa907d71725ff1740c3d
+
+COCOAPODS: 1.8.4

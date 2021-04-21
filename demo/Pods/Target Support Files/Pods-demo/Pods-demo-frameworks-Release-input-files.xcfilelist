@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-demo/Pods-demo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/GPUImage/GPUImage.framework
+${BUILT_PRODUCTS_DIR}/IRCameraSticker/IRCameraSticker.framework
+${BUILT_PRODUCTS_DIR}/IREffectCamera/IREffectCamera.framework

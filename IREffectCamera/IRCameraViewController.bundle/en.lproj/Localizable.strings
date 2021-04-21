@@ -1,0 +1,6 @@
+"IRCameraViewController-Title" = "Take photos";
+"IRCameraViewController-Subtitle" = "Allow access to your camera to start taking pictures with app";
+"IRCameraViewController-Step1" = "1. Open the Settings of your device";
+"IRCameraViewController-Step2" = "2. Go to Privacy";
+"IRCameraViewController-Step3" = "3. Go the Camera";
+"IRCameraViewController-Step4" = "4. Activate";

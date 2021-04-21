@@ -1,0 +1,6 @@
+framework module IREffectCamera {
+  umbrella header "IREffectCamera-umbrella.h"
+
+  export *
+  module * { export * }
+}
