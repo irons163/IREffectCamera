@@ -51,6 +51,24 @@
     }];
 }
 
++ (void)takePhotoCaptureView:(UIView *)captureView sampleBuffer:(CMSampleBufferRef)imageDataSampleBuffer cropSize:(CGSize)cropSize completion:(void (^)(UIImage *))completion
+{
+    NSData *imageData = [AVCaptureStillImageOutput jpegStillImageNSDataRepresentation:imageDataSampleBuffer];
+    UIImage *image = [UIImage imageWithData:imageData];
+    if (!CGSizeEqualToSize(cropSize, CGSizeZero)) {
+        image = [self cropImage:image withCropSize:cropSize];
+    }
+    completion(image);
+}
+
++ (void)takePhotoCaptureView:(UIView *)captureView image:(UIImage *)image cropSize:(CGSize)cropSize completion:(void (^)(UIImage *))completion
+{
+    if (!CGSizeEqualToSize(cropSize, CGSizeZero)) {
+        image = [self cropImage:image withCropSize:cropSize];
+    }
+    completion(image);
+}
+
 #pragma mark -
 #pragma mark - Private methods
 

@@ -17,7 +17,6 @@
                 <outlet property="bottomViewHeightFixed" destination="LyU-y9-7HV" id="m31-Xt-Zc1"/>
                 <outlet property="captureView" destination="d93-Jn-o6O" id="Tef-Xl-GQ9"/>
                 <outlet property="closeButton" destination="ttu-o2-odm" id="HvX-XP-VT1"/>
-                <outlet property="flashButton" destination="Wh6-E8-IpG" id="C8c-z3-ySt"/>
                 <outlet property="gridButton" destination="FAv-mx-vMq" id="m0o-Dv-93f"/>
                 <outlet property="separatorView" destination="xih-ko-dAk" id="zyp-ru-guz"/>
                 <outlet property="shotButton" destination="Q8I-1g-t0d" id="8VX-l2-oI0"/>
@@ -153,9 +152,9 @@
                                         <constraint firstAttribute="width" constant="50" id="TZx-0F-dgc"/>
                                         <constraint firstAttribute="height" constant="40" id="URk-J2-hF0"/>
                                     </constraints>
-                                    <state key="normal" image="CameraFlashAuto"/>
+                                    <state key="normal" image="CameraFilter"/>
                                     <connections>
-                                        <action selector="flashTapped" destination="-1" eventType="touchUpInside" id="4Z4-Rv-n8K"/>
+                                        <action selector="faceStickerTapped" destination="-1" eventType="touchUpInside" id="ZtJ-NQ-JPm"/>
                                     </connections>
                                 </button>
                             </subviews>
@@ -299,7 +298,7 @@
     <resources>
         <image name="CameraClose" width="26" height="26"/>
         <image name="CameraDetail" width="58.5" height="58.5"/>
-        <image name="CameraFlashAuto" width="41" height="41"/>
+        <image name="CameraFilter" width="41" height="41"/>
         <image name="CameraGrid" width="26" height="26"/>
         <image name="CameraRoll" width="26" height="26"/>
         <image name="CameraShot" width="78" height="78"/>

@@ -39,8 +39,9 @@
 
 - (IBAction)closeTapped;
 - (IBAction)gridTapped;
-- (IBAction)flashTapped;
+//- (IBAction)flashTapped;
 - (IBAction)shotTapped;
+- (IBAction)faceStickerTapped;
 - (IBAction)albumTapped;
 - (IBAction)toggleTapped;
 - (IBAction)handleTapGesture:(UITapGestureRecognizer *)recognizer;
@@ -288,6 +289,10 @@
         pickerController.popoverPresentationController.sourceView = self.albumButton;
         [self presentViewController:pickerController animated:YES completion:nil];
     }];
+}
+
+- (IBAction)faceStickerTapped {
+    [_camera displayFaceSticker];
 }
 
 - (IBAction)toggleTapped

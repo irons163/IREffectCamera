@@ -3,6 +3,7 @@ PODS:
   - IRCameraSticker (1.0.0):
     - GPUImage
   - IREffectCamera (1.0.0):
+    - GPUImage
     - IRCameraSticker
 
 DEPENDENCIES:
@@ -28,7 +29,7 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   GPUImage: bd7e201b9aa91e85f401ed7a6d9867a07a404693
   IRCameraSticker: dfd90c865a13c755b0c666c47b99dd7542a67e5f
-  IREffectCamera: aeb43e15690a34887df2fbcaa4fd8d8e7ff30374
+  IREffectCamera: a643392d43940128a5e94991c0fd66857db634bc
 
 PODFILE CHECKSUM: 8aefa8e5e7850fc948b8aa907d71725ff1740c3d
 

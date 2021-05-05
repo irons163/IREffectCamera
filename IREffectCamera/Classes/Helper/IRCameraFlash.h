@@ -15,7 +15,9 @@ NS_ASSUME_NONNULL_BEGIN
 @interface IRCameraFlash : NSObject
 
 + (void)changeModeWithCaptureSession:(AVCaptureSession *)session andButton:(UIButton *)button;
++ (void)changeModeWithCaptureDevice:(AVCaptureDevice *)device andButton:(UIButton *)button;
 + (void)flashModeWithCaptureSession:(AVCaptureSession *)session andButton:(UIButton *)button;
++ (void)flashModeWithCaptureDevice:(AVCaptureDevice *)device andButton:(UIButton *)button;
 
 @end
 

@@ -232,15 +232,21 @@
 
 - (void)recalculateViewGeometry;
 {
+    __block CGRect currentBounds;
+
+    dispatch_async(dispatch_get_main_queue(), ^(void){
+    //Run UI Updates
+    currentBounds = self.bounds;
+        
     runSynchronouslyOnVideoProcessingQueue(^{
         CGFloat heightScaling, widthScaling;
         
-        CGSize currentViewSize = self.bounds.size;
+        CGSize currentViewSize = currentBounds.size;
         
         //    CGFloat imageAspectRatio = inputImageSize.width / inputImageSize.height;
         //    CGFloat viewAspectRatio = currentViewSize.width / currentViewSize.height;
         
-        CGRect insetRect = AVMakeRectWithAspectRatioInsideRect(inputImageSize, self.bounds);
+        CGRect insetRect = AVMakeRectWithAspectRatioInsideRect(inputImageSize, currentBounds);
         
         switch(_fillMode)
         {
@@ -270,6 +276,7 @@
         imageVertices[5] = heightScaling;
         imageVertices[6] = widthScaling;
         imageVertices[7] = heightScaling;
+    });
     });
     
 //    static const GLfloat imageVertices[] = {

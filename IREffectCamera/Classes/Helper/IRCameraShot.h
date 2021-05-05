@@ -20,6 +20,10 @@ videoOrientation:(AVCaptureVideoOrientation)videoOrientation
         cropSize:(CGSize)cropSize
       completion:(void (^)(UIImage *photo))completion;
 
++ (void)takePhotoCaptureView:(UIView *)captureView sampleBuffer:(CMSampleBufferRef)imageDataSampleBuffer cropSize:(CGSize)cropSize completion:(void (^)(UIImage *))completion;
+
++ (void)takePhotoCaptureView:(UIView *)captureView image:(UIImage *)image cropSize:(CGSize)cropSize completion:(void (^)(UIImage *))completion;
+
 @end
 
 NS_ASSUME_NONNULL_END

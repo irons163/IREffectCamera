@@ -19,6 +19,9 @@
     "IREffectCamera/**/*.bundle"
   ],
   "dependencies": {
+    "GPUImage": [
+
+    ],
     "IRCameraSticker": [
 
     ]

@@ -10,6 +10,7 @@
 		00A694A78101F0DC0D1B6170A4293B9F /* GPUImageKuwaharaFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = FBC0F496F7DBCB6C9131902CF0F5D6D7 /* GPUImageKuwaharaFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00CF5B1545BCD882D69152B5AE4A5D54 /* GPUImageHistogramEqualizationFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6400E59244B4D76AE9A8BBC543F77C26 /* GPUImageHistogramEqualizationFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		020F58F42CEE4C13F5DC0811203BFA81 /* GPUImageZoomBlurFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A9D9C61D504C6C278845C7313EF659 /* GPUImageZoomBlurFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0277CE192DEA1CCC97365C11BF01063C /* UIImage+Bundle.h in Headers */ = {isa = PBXBuildFile; fileRef = CECAE8E815F7967935373DDDBEE1CBF5 /* UIImage+Bundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0301706E30831A843C4595410605319F /* GPUImageVideoCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = F9CEB33DD3083E8A1C91504EA9F2E1A8 /* GPUImageVideoCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		03C7EF23DAA581A1EEA54A6899CE3831 /* GPUImageContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 354BF7C8484BF4AE3FE8E06A69E04E71 /* GPUImageContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		03E369BBEC0CEF413273575801CBB551 /* GPUImageRGBFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6818EAAE53A057BE9FA6CBFEB6ABB662 /* GPUImageRGBFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -18,34 +19,36 @@
 		04E53B6839DA18ECAA891D2F05821A3B /* GPUImageMedianFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B115A2A496C0B0A3A5D435FCEAF2394 /* GPUImageMedianFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		050194F5FB3BFD25CFF34ABB792BB86C /* GPUImageGaussianBlurFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 44EAC9276248472EC4B6274475C35FB1 /* GPUImageGaussianBlurFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0595DF44DB937C871DFF160190E679D5 /* GPUImageAmatorkaFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = E901FF66ED3B4EEA03E8BF0100B0D116 /* GPUImageAmatorkaFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		06853CF753C2725825C3E9C00075A6BC /* IRCameraFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = B24916DBA1907D8401C05AA6520525D6 /* IRCameraFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		06AD3E8A652E644A719C80B93001DFB6 /* GPUImageXYDerivativeFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = E3AAF47802558F5EF01B387BB5853322 /* GPUImageXYDerivativeFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		06FC9D4682ABEE063C7DC4525E10D486 /* GPUImageAverageColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 421FB995D184E1520300DEB443DA509D /* GPUImageAverageColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		079DAAD882417B2FBAED91361024A430 /* IRCameraViewController.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D94373FB8D59C001303B3B36862A0A47 /* IRCameraViewController.xcassets */; };
 		07C94C42D85D8D10434403C59484CC97 /* GPUImageThresholdSketchFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 34398E81B094A54C00C5D73EA47ECB8B /* GPUImageThresholdSketchFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07FA1E7C492216B80E687A74D459DD44 /* GPUImageFalseColorFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C770D555008C159FD6246A694DAA9C5 /* GPUImageFalseColorFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		088F858206011BFD9F0CF667091948F9 /* GPUImageToneCurveFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CD876D565A5D026B3E186D30FD20277 /* GPUImageToneCurveFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08C3699F10212A4CA66B3C3B00B95E33 /* IRCameraSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = D080122842B2F4DBC46418C3843C9197 /* IRCameraSlideView.m */; };
 		0A49998882DE32856ACD640DE95A0B6B /* GPUImageVideoCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = B282828B445D9BFFF71ECA93DB27F775 /* GPUImageVideoCamera.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0A788B6F2EA3861912403846D8259646 /* IRCameraGridView.h in Headers */ = {isa = PBXBuildFile; fileRef = 627626E8A051F7EA14FB66B0D121C578 /* IRCameraGridView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0A7A0F55CA6A6C9DDB7E45FEA0C0D422 /* GPUImageColorPackingFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = E228473CC6E4B56D4FDCC09018AC6E62 /* GPUImageColorPackingFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0B883D679747147E583B3993FD335A28 /* GPUImageFilterGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = FF13794012E0B56E018B026B2AB85BDF /* GPUImageFilterGroup.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		0C0A88F1E975ACF6D7CB3D61DF5F1D1E /* IRCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 451E75F92F63AE4ADDAB54B21D7F77DE /* IRCamera.m */; };
+		0BF6B082059D263A6099F4773D8C2D3E /* IRCameraSlideView.h in Headers */ = {isa = PBXBuildFile; fileRef = 588FB15FE74CF23DE719603B8683FB19 /* IRCameraSlideView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0CFBDA6FDE5ED16F45B2078A130CA8C6 /* GPUImageSharpenFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = BADE1A5D307F2EDE8F175BB68B6070A0 /* GPUImageSharpenFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0CFD909B1ECB9839C89023B87DC623E3 /* IRCameraFocusView.h in Headers */ = {isa = PBXBuildFile; fileRef = 87CBB939291A65B4B9D1D0B388F0A564 /* IRCameraFocusView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0D67F444676891D044CE5E7B4BDCE244 /* GPUImageThresholdSketchFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB35D1129DCC8AB29C2F0BEAAA9D5E9 /* GPUImageThresholdSketchFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		0DEC80A7034EEE4833D325F3561EC47C /* GPUImageDarkenBlendFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 182B5E7A448675AAC88247120896287E /* GPUImageDarkenBlendFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		0E43EEF89E8A905CFF2A48D4155600C3 /* GPUImageColorInvertFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 831DBB07A3CABD40C31B9E0A66B4F80D /* GPUImageColorInvertFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		0ECB26290783DBF1A0AA5109BD36036E /* GPUImageRGBDilationFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A73AC8A1BA107F039A45BCE15A3F94 /* GPUImageRGBDilationFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		0F748CA44D0701465D6D68C09EDFCB44 /* IRCameraStickerFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A6535FCCA40C3F8464EC7065AEF7A6 /* IRCameraStickerFilter.m */; };
 		102C161AE6B4D5969FDC4908218D0993 /* GPUImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34185264F1477F95DBEEFCCEA78CBDCF /* GPUImageView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		117A5AE02EBE606F0C622487070083B5 /* IRCameraFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF5976652C711664FE7D40A4A8BC536 /* IRCameraFunctions.m */; };
 		11F8ADE9A4FE8C4DDB03722612814972 /* GPUImageThresholdedNonMaximumSuppressionFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D24DB808A399F1AC0022036E09CCB1A /* GPUImageThresholdedNonMaximumSuppressionFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		1233A5A09AD1390A8DBE07CEE675EC9C /* GPUImageCropFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0207E4ADF0491B91F3D58A8B83CDE3D3 /* GPUImageCropFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		12D08140BABF42901960D0EB127343CE /* UIImage+CameraFilters.h in Headers */ = {isa = PBXBuildFile; fileRef = 759EECEA3658CA6F218EF966B30AC983 /* UIImage+CameraFilters.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		13E1ACC3F6291563AAE35B599AA40AEE /* GPUImageAverageLuminanceThresholdFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = D552B3C5D3BE8B965F1508494B1FA676 /* GPUImageAverageLuminanceThresholdFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		1451620724C698C889749212C00585D5 /* GPUImageSingleComponentGaussianBlurFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = EB2C10933EA67DEF292792A977C2A801 /* GPUImageSingleComponentGaussianBlurFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		150426DBBE747FFFEAD43004DC564287 /* GPUImageStillCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2BB34B1A016FDBD17B1FEACF209591 /* GPUImageStillCamera.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		15C1EC9BF68F9D49851D00624BE461EB /* IRPhotoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D0D68FCD6FD2BA5C3C3270FDA24E4A9B /* IRPhotoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1616981032CC2BC6FB6464580FCD6E4D /* GPUImageMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 9429ED2F37C77911E41A2F101BB851E6 /* GPUImageMovie.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		17B90284DDFABE35910B0F4E0234FC02 /* GPUImageShiTomasiFeatureDetectionFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9085E8F3112DE2D87BA65A96B2FDD92D /* GPUImageShiTomasiFeatureDetectionFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		17FF34700B1314C97EA91877DC41BECC /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9262C3FE09D2DDA515881F6071C37592 /* GPUImage.framework */; };
 		17FF6488BEC90CF6FA04E5B86023B603 /* GPUImageCrosshairGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = C94B64E8C29B1B96830F8FEC88CF56D3 /* GPUImageCrosshairGenerator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		17FF7E2F4A5D21B5C8704DD8C0D51FBC /* IRCameraViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8E35D477A7AC0ED5AB55317DC1736609 /* IRCameraViewController.bundle */; };
 		183EC5DAEC04590DAEB9D50B22E4A7B3 /* GPUImageOverlayBlendFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = A3F489DD95FA549653ADD5E687AF682D /* GPUImageOverlayBlendFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		183F26E72559AF61543490358EBDFD6C /* GPUImageTextureInput.h in Headers */ = {isa = PBXBuildFile; fileRef = EB45964956BF503506C17B8A5B32F013 /* GPUImageTextureInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A16393851F2789A54DC8638F62C6B4C /* GPUImageRawDataOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = FC2E4BE4570105DE390A08E6BC9E351F /* GPUImageRawDataOutput.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -53,16 +56,18 @@
 		1C11E8AAF4F66F2BE2559A5A8322C35B /* GPUImageHarrisCornerDetectionFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 78B54AAF29D400AB1F3D2F2DD22DC91F /* GPUImageHarrisCornerDetectionFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1DC3D2B06C40D7112BAA52EE75BC08BC /* GPUImageFramebuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 518148F2E3C1F00F2046E1A2B0E0C1E0 /* GPUImageFramebuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E3339BC3E1E11FA0EC46F0DAAF62134 /* GPUImageNonMaximumSuppressionFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = D311EF62B862C79873501256D72006B2 /* GPUImageNonMaximumSuppressionFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EAB64F53300EFFBE23C745A434D4A5E /* IRCameraColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4E58F06B1819F7B8D57A5B1E2AC723 /* IRCameraColor.m */; };
 		1F83AB95F1A029DB34B7C53F91917F8B /* GLProgram.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F4B8387E1A84F3B2835D36D7CF70281 /* GLProgram.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F84335FCEA69BDFA9E79FC686189BC9 /* GPUImageEmbossFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 775BB55A1C6DE4879432FBDDFDE25CF0 /* GPUImageEmbossFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		1FBAC4602AC6A7C2F67352B7FB6469AB /* GPUImageMotionBlurFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = A90A0C7A1DEEA87872B73BF1D0F88F07 /* GPUImageMotionBlurFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		203329AA7BB5730DE1536510D5A276D1 /* GPUImageSourceOverBlendFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 181DD0005D403DF9E36E92AF48EB6361 /* GPUImageSourceOverBlendFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		20D25537781974556D642C612CD5E327 /* IRCameraSticker+OpenGL.h in Headers */ = {isa = PBXBuildFile; fileRef = E59A1BA77F64A3DCD245665E1597CE4D /* IRCameraSticker+OpenGL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21371075C1CB9B35102B246A4AAF5191 /* lookup.png in Resources */ = {isa = PBXBuildFile; fileRef = BD0565BF54F2C793DCE89186EF87835C /* lookup.png */; };
-		2179DB8C2DB2128036B76A7965C76A86 /* Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = 468CF02CE7ECCC909286F91CCDE0EEB9 /* Utility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21C1EF9AF6FB5A3AB133DA2F455AAF47 /* GPUImageCropFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 23CD0EDC845078E0DD82694C7F356ECA /* GPUImageCropFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21F17DB4B3840F2E7EFFFAFDA227D73E /* IREffectCamera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE4248D2A087C8ED19FDE81CBD2C06CE /* IREffectCamera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		223A0B3907CE4BDC4E64EC1997EDB31C /* GPUImageSaturationBlendFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E4DAB0302E9AB9870137725AE746871 /* GPUImageSaturationBlendFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		229526D6BDFC935EB888BC437F87524C /* GPUImageSoftLightBlendFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A46658A405995AC5650C96A643092F6 /* GPUImageSoftLightBlendFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		23239E606231A68B74E0F608AF62D42F /* IRCameraFlash.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FAE6D8C3174DB6BFDAD2AEF99201BA7 /* IRCameraFlash.m */; };
 		234FCD1E0FD0F5B00342DB603B78E381 /* GPUImageHighlightShadowFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C408C10750E8148CF7C4911E68B8DA0 /* GPUImageHighlightShadowFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23A37D9AC814B13C6730158D2BDFF7DA /* GPUImageTextureOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = BF3C070AC62C8D40773ED2353933C162 /* GPUImageTextureOutput.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23E91F8F8D4D80528C37FAAF4698430F /* GPUImageLookupFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = B701289A1DA970947F4DA8E438C5F005 /* GPUImageLookupFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -73,12 +78,13 @@
 		2619C994ECC6BE64ADC0BD828BC960D4 /* GPUImageHueBlendFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 407DBD9C0D30F49D75215D5117B53EA8 /* GPUImageHueBlendFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		268FBCC42DA114CCB1EFBD85EA0A90F8 /* GPUImageMovieWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EE3D00BBC73A5909FFFB16970A11CA /* GPUImageMovieWriter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		275475A0E192AB238EFBD2B8A9347D20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 190A2DB8B55DFA3AB5AEFC7B1A1509AA /* Foundation.framework */; };
+		27E76627DE8F90ABB89ED1CC3D6A0260 /* IRCameraFlash.h in Headers */ = {isa = PBXBuildFile; fileRef = E3EC3D4699F9BEF6A7A0B4C529AA14EA /* IRCameraFlash.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28DC75334858E946A96E9D4AA54AD897 /* GPUImageNobleCornerDetectionFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5B58972B10E2E1F85F899AFF2A1D3F /* GPUImageNobleCornerDetectionFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		2929B85162B128A431B29D6800F58AD0 /* GPUImageRGBErosionFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4185F307574EC8EBE99DF2E8364CECE8 /* GPUImageRGBErosionFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2931991C4023A1A49B90C38B2AABDA14 /* IRCameraShot.m in Sources */ = {isa = PBXBuildFile; fileRef = EED059AAE622D81364E54AADC155A379 /* IRCameraShot.m */; };
 		29A015C3630F2C93F1905EA0E87BA515 /* GPUImageRGBClosingFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 834A768432851D3A28FB21E85D829518 /* GPUImageRGBClosingFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		2A8F00CAD1C0FE1160108F8C5410C7A6 /* GPUImageThreeInputFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ABC25348A8E727B0123480B079182DC /* GPUImageThreeInputFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B6E35FF574E93D5FB10C77FBA20A8BD /* GPUImageGrayscaleFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2373E9DB7FBD5916F8D0B57BAE0EB7AB /* GPUImageGrayscaleFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		2BBE0E15C9B63971447AB2957574FE3C /* IRPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E59204694272CD46B099930BB6520FFE /* IRPhotoViewController.m */; };
 		2BEF5B99A6468AE68FC5325D15890DA1 /* GPUImageGammaFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A965DBAB529C24CAF59AB9DC587916 /* GPUImageGammaFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		2C1A4B2BD0C6AF3D12C6D52F6E1F3A10 /* GPUImageSolarizeFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CE7AE704D7ED83A00AE3D341AA2301 /* GPUImageSolarizeFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C460DB7AF45E5D7CFACEFBC7B1EC32C /* GPUImageHardLightBlendFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = ACDE0685620DD204E609449274484C73 /* GPUImageHardLightBlendFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -86,14 +92,13 @@
 		2CD8A18A7BF8CA3EA6AD024C4D4F128F /* GPUImageUIElement.h in Headers */ = {isa = PBXBuildFile; fileRef = AA96A749808569DAD52A7F6320082453 /* GPUImageUIElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2DD962D0CD69CB01E39C5338DDE9302F /* GPUImageTiltShiftFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 719694508C088A35DE7FB64227536848 /* GPUImageTiltShiftFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		2DF6768CB37C3741DF765EA3243933DD /* GPUImageSaturationFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = C00914461D0F0C8555986281764EB690 /* GPUImageSaturationFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2ED7FC81A95BFBBE6D40B584CD6FB61F /* IRTintedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8F5FEC6E505F8A9CB59D6278D29345 /* IRTintedLabel.m */; };
 		2F2318E6D6D2615AC63FDC9EE6FBB690 /* GPUImageHalftoneFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4DF3BF05EA2D4EBE0E0F3BA1A7FD39 /* GPUImageHalftoneFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		2F3BA544854AE6EDEFEFD1B8FE704E75 /* IRCameraViewController.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D94373FB8D59C001303B3B36862A0A47 /* IRCameraViewController.xcassets */; };
 		2F44DABBACC3AD92A53A9CB2366C7A7D /* GPUImageErosionFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 25D5FBE45BD5BE0E06BBB7C4C579BD93 /* GPUImageErosionFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3069C62408770A0C67CE6A408A9F1437 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F767F1E1805EA18C17B936824F34A4C6 /* CoreMedia.framework */; };
 		3091435DB85342DD24C24D5372A713FB /* GPUImagePrewittEdgeDetectionFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EF1C01E6C84A15F38EA6964AA67485 /* GPUImagePrewittEdgeDetectionFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		30F20E25EF0A1D952950F6B037283C0E /* GPUImageMotionDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E1E1A8CED62AE89A980C0BB262AE93 /* GPUImageMotionDetector.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		31612802BDA4C136330E96C8BC74E464 /* GPUImageSphereRefractionFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 233BD010FB37E8A03DB7BE1BE760542F /* GPUImageSphereRefractionFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		3168013F534D68030AD5C257A6E89CCF /* IRCameraSlideDownView.h in Headers */ = {isa = PBXBuildFile; fileRef = B2CEFB1786EACDC302D474BBECB4EA90 /* IRCameraSlideDownView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32AD012270CC2A7701D21B477920DFB2 /* GPUImage3x3ConvolutionFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7155BFB2D3AA193CD354C2479B16128E /* GPUImage3x3ConvolutionFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33BC7ABEFFDB7872F7603D6281575312 /* GPUImageAverageColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F492CF225FA1270C59DA5A553B7B1730 /* GPUImageAverageColor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		33F19CFDB13F3FA72123343DA0406F5A /* GPUImageTransformFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = E32AED4A4DCAE62D03057E7073AE36BA /* GPUImageTransformFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -103,54 +108,48 @@
 		35272DC128C0844B1127B051F546B9E3 /* GPUImageSphereRefractionFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = B4AF84FDA068FEA400B8E30C4AD7976D /* GPUImageSphereRefractionFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35629E0FD4FA7580ED3424C464C3DC70 /* GPUImageSoftEleganceFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C3EDEF2CEB390830E7B974E923DA5D /* GPUImageSoftEleganceFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		3677414B81EEDD894A0EF77AF6D0C1C5 /* GPUImageMotionBlurFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 859D6B5C6F8AAC39EDDBB3F95CA689CB /* GPUImageMotionBlurFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		37C144D4BEA66AD875391F3B1329046D /* IRTintedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5191DD721EF936A95C213ABAC905091E /* IRTintedLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		37F964206FBF573DA40219D1AA33DBCD /* IRCameraFocusView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D33BBA62BB00502BEA1B88FBCBF069 /* IRCameraFocusView.m */; };
 		39682ECB1DC7912E2728074AE8A173E5 /* GPUImageSmoothToonFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A98398AC011B821CDDB961BCC6DD731 /* GPUImageSmoothToonFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		3A288736C8EF9E426CEA6D7427355594 /* IRCameraSticker.m in Sources */ = {isa = PBXBuildFile; fileRef = 50269C69C61FE424C0AFAD4EFF688D33 /* IRCameraSticker.m */; };
 		3A71004F3C4425BB223861E5D7293CCD /* GPUImageHardLightBlendFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4B0FEC57B11E2D84BDD13E9C28EF5 /* GPUImageHardLightBlendFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		3C69EA311BB57072F9DA4AF6F82A27DC /* IRCameraFocus.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BBA2E0001ABE71D636545419FAC3A0C /* IRCameraFocus.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3C8A19DA22FDB9214A353CF61FD3E671 /* GPUImageSepiaFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = D9035AC4B32D2818910D1383B0342EC0 /* GPUImageSepiaFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3CB27B97D65FEB4C7B93A543BD13CD55 /* GPUImageSubtractBlendFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC1A5F9FAFB2051CDD2965766EE3005 /* GPUImageSubtractBlendFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		3CE9EF49E9E43DF05A8122DC3DD3EB95 /* GPUImageMultiplyBlendFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 99EBD8FAEF946E23B9A50A35682140B2 /* GPUImageMultiplyBlendFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D06C0A39839127D2714A2BC04D3E87A /* GPUImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62084C777A7E1698910BA080A5052DE3 /* GPUImage-dummy.m */; };
 		3DB8C994F2DF71B9ACE9100B06AA6984 /* GPUImageSkinToneFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = C8857F9408C2DCB44954DC886A7CC7B5 /* GPUImageSkinToneFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E944F5D9E97FF06ABEBC053EA2C1428 /* GPUImageTwoInputCrossTextureSamplingFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E67BFA07980B2B02D6857BAF58A9655 /* GPUImageTwoInputCrossTextureSamplingFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		3F364510D792E87D524B3AD5A7F6F59A /* IRCameraGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFE0FC9C67824CA0A650B88A7E600C9 /* IRCameraGridView.m */; };
 		3F6659F332EC8930F904D2CDE3973204 /* GPUImagePixellatePositionFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = E0E5D63134075CCE6938553D5E674546 /* GPUImagePixellatePositionFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40BA401CB0AE53E7F3654C8086643493 /* GPUImageZoomBlurFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = BE84AB2FCCE509041B1207D7C9970365 /* GPUImageZoomBlurFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40C3716A4196955CB8AA09C16FF0C5CD /* GPUImageOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 289E299AE7DB28955A78E8AA6F35A3E3 /* GPUImageOutput.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4170738E35CE605EBB7425E20AD246BB /* GPUImageSobelEdgeDetectionFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E27B0E22F4F51157769AD69DB798886 /* GPUImageSobelEdgeDetectionFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		41A887D0CEE3635B7EE236B972A98C31 /* GPUImageHistogramFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D171F542AACDF2B016138A27460B305 /* GPUImageHistogramFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4227716AE2740A3711B80D3805012566 /* IRCameraAuthorizationViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 2CA4BCF737E1FF91AC93E1807973CE6B /* IRCameraAuthorizationViewController.xib */; };
 		42AEBB175764880DEC28382D6E0D1366 /* GPUImageLanczosResamplingFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = DD829D777D8D3FF9BC01190B4E4F8339 /* GPUImageLanczosResamplingFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		4396E1740E98D012546C82738CE41CE5 /* GPUImageColorInvertFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 314EC8CC9BAA48C3FA1B36855DA073E0 /* GPUImageColorInvertFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		439C2A93D198C80E0B4932873BB79C68 /* GPUImageDissolveBlendFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = B6D4EB26BE5C1FA35D167E6147E0DF00 /* GPUImageDissolveBlendFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44BB176E447F646F79B271FA8B781D9F /* UIImage+Bundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD9C4A5497B05FC9A4570B8138EEB65 /* UIImage+Bundle.m */; };
+		44149DD0CB329AFCEAE6EBB3855A743A /* IRCameraFilterView.h in Headers */ = {isa = PBXBuildFile; fileRef = E4F0DED6B0C510E199ECBE5CC8F6EE14 /* IRCameraFilterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		45873CBEB202398A7650C916F6538FAF /* GPUImageTwoPassTextureSamplingFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = A30B3616BA92D1103E3EF0E0274988BB /* GPUImageTwoPassTextureSamplingFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		45D0945A1D293818FB7E34CEA61F3A47 /* IREffectCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = C93E9982B90EBCADA9D4DB7B7559C190 /* IREffectCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		45ED98EFA9B6CF5FDF45CE0EC1C402A2 /* GPUImageCGAColorspaceFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D7968ED1D0E2C7CFF95029FC5757A6 /* GPUImageCGAColorspaceFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		461E6BC004DFF41F76C39D36D248730C /* GPUImageColorConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD359A0A42F7611232CE288196965BA /* GPUImageColorConversion.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		4698F6D905239923584DE12D00F612B9 /* GPUImageFASTCornerDetectionFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7205A71B9ADBFA6B5FE0D2134EBAFEF1 /* GPUImageFASTCornerDetectionFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		474835DD8A567AD682994BA0481D0758 /* GPUImagePicture+TextureSubimage.m in Sources */ = {isa = PBXBuildFile; fileRef = 25656C54F0E6CBAA82876D5924151728 /* GPUImagePicture+TextureSubimage.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		47D4068FC5B3DCEBA2E07F442BFB81E0 /* GPUImageMissEtikateFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = C0931E032173CE908134FBC42EE81A4D /* GPUImageMissEtikateFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		485C9DF733385518370D14C66F7F29CD /* IRTintedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 370A6F9516D9C3A9880EEF4EC7D3E814 /* IRTintedButton.m */; };
 		487EFE7AD88E074781C4F6490F08C907 /* GPUImageMonochromeFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AFA2427F79DA1ED8904F1A68CF7E8B /* GPUImageMonochromeFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		48CBD4F8D165649ED1CE0711046C2D03 /* GPUImageFramebuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = F495808E8FA5AE1D91C95E60BC902BD3 /* GPUImageFramebuffer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		494FE4EF8F344E2FE6C193700C075678 /* GPUImageDilationFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = CB435E6F7875E88394016A6CB62884C0 /* GPUImageDilationFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49B3BBA355D711C1E09A6FD4F2967342 /* GPUImageSwirlFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2159B9482A7D31E05F2F3DC4012A0F1B /* GPUImageSwirlFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4A8EDEAC3734218528CBE1FBE30B272E /* UIImage+Bundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD9C4A5497B05FC9A4570B8138EEB65 /* UIImage+Bundle.m */; };
 		4AB04C97CF3FD922D8997947EDE3CA51 /* GPUImageContrastFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CFBFAF2BC58D2E546BC3BB07164B4BA /* GPUImageContrastFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B6D1089A4A2B3DD3C818471B5251E25 /* GPUImageStillCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 0306819305986FD95CE03C1B1DF60CE2 /* GPUImageStillCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BDCF5FF2BFB671C265F7AFE4A82BD87 /* IRCameraFocus.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7534901BF735AA65378D77EE3E9956 /* IRCameraFocus.m */; };
-		4C82D77121563DBEC46EDDC121F59329 /* IRCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6F27F23A0580EE8EFD9E895C6F91B6 /* IRCameraViewController.m */; };
 		4C9D1E26CBE689C378B59D829AE63C76 /* GPUImageLinearBurnBlendFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EBC706CA19F31B42935C964C3CD7B34 /* GPUImageLinearBurnBlendFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DA6D585346A2DFD2EF2AF32DE539F16 /* GPUImageMovieComposition.h in Headers */ = {isa = PBXBuildFile; fileRef = 984D8C152CFA77945AF8A459919D22DB /* GPUImageMovieComposition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E3F81024ED5E77EEEB5CE75D72DDEB2 /* GPUImageColourFASTFeatureDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F9C1AF0C541385DE708F808AF8D3EB /* GPUImageColourFASTFeatureDetector.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		4EDB7BD6646974FAB0688A1BC44E7462 /* GPUImageColorDodgeBlendFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = F4648E2EBB2E089C28AB3801529973B9 /* GPUImageColorDodgeBlendFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EF8250C9A03A6F9BAB68DF7CB33ADC9 /* IRCameraViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 79ED1E1D4FF2F28985C5FF1350ABBF13 /* IRCameraViewController.xib */; };
+		4F5535C388723CC32FE0C60439EBBF08 /* IRCameraViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 19251B2533581358E8DC7366FB85F32F /* IRCameraViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F700B4A3B5BF2DB3D9CE6023E30350F /* GPUImageColorLocalBinaryPatternFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E70F40E42172C57CFEA5B2F563A822 /* GPUImageColorLocalBinaryPatternFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		4FAE711DEDBC27D6D1C966502D3F2929 /* GPUImageColourFASTSamplingOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC516CD734BF7CABA8000DCA89A4F9D /* GPUImageColourFASTSamplingOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		5022237B646DA0DDB12AB78140BCAC16 /* GPUImageAverageLuminanceThresholdFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = D52B71D8A6C6D6CA1445983D12119CF3 /* GPUImageAverageLuminanceThresholdFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50B42315F44CC2419FF0A86F5033E914 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EE2A9623934BD337A69F59598FC11F9 /* OpenGLES.framework */; };
-		50DD7AA67C14B67DAF461FF94C30073A /* IREffectCamera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE4248D2A087C8ED19FDE81CBD2C06CE /* IREffectCamera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50C46C547FE5A30F2CC722ACB6A22478 /* IRTintedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5191DD721EF936A95C213ABAC905091E /* IRTintedLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		51441EC1AD6E5938B2A340C2F1812A7C /* GPUImagePolkaDotFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD7537907108028F590D5BBA30976D2 /* GPUImagePolkaDotFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		516A21CE8A07A63BF8796750A81F13B6 /* GPUImageLineGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 19BC998EEB06062A114B0D805686FD79 /* GPUImageLineGenerator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		51CD088F84AFC94BB55C5351288E4A75 /* GPUImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83A38CC6066B9BF4E682A221859E5421 /* GPUImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -164,17 +163,16 @@
 		54B86DA23715E57FF5CE13D830FA140B /* Pods-demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5DC5ABE867DFAFEEFE65EB904EC044 /* Pods-demo-dummy.m */; };
 		5529C64D320EF4CEDC45D5A5A1951008 /* GPUImageFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E9E2EB7F58436BDDBF8EE625C24ABC6 /* GPUImageFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		55BB07E55496D15630672CA7E1306971 /* GPUImageWhiteBalanceFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BD547A7600EC27D24AA2720B07B0CF /* GPUImageWhiteBalanceFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		5613CD01E831762ACD97105E0AF0B91F /* IRCameraSlideUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F16B7F1488A5470ACA97BCADC11B3B1 /* IRCameraSlideUpView.m */; };
 		56F9AB542F9F69223F654D84734FAA53 /* GPUImageSolarizeFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = A228B63188C3206C855361A756EBFBA4 /* GPUImageSolarizeFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		57766543992C0A6778EDAF6E7B7708D2 /* GPUImage3x3TextureSamplingFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 66C73BEF1BC242418CF27A634609EF77 /* GPUImage3x3TextureSamplingFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57F2CED0C2EC924C8D8EEACCE28221B2 /* IRCameraFocus.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BBA2E0001ABE71D636545419FAC3A0C /* IRCameraFocus.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5863EE23B8ABD319339669D07CF1AF87 /* GPUImageLevelsFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC0FE264F1FF7C75EC5CE5E7D5193EB /* GPUImageLevelsFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		58D262B072ABD7224E31105AFB9CF53D /* GPUImageSharpenFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = E0BF3C9F28C5B9DFB31A7D4E4F0ABCA6 /* GPUImageSharpenFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59168361B8CEE0F6EAC87D5A0EC00FEF /* IRAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE9FC77FEB53CE7A59503F9ED0D5CB8 /* IRAlbum.m */; };
 		5935DF068F4650D9006FFEAB482B7FFC /* GPUImageMovieComposition.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D92199875557E257F15345336FBA97 /* GPUImageMovieComposition.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5936FD814253DFAA86D56DACCCBF7517 /* UIImage+CameraFilters.h in Headers */ = {isa = PBXBuildFile; fileRef = 759EECEA3658CA6F218EF966B30AC983 /* UIImage+CameraFilters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5990ABF07599C124CB97805727C96C2B /* IRCameraAuthorizationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 11D82C3D3DD640924129DFB98AA14B90 /* IRCameraAuthorizationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5CEFF145A29B4E77B44B6315C36555B3 /* GPUImageBrightnessFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CE26B6C90A82357A4D9C64F27F4A998 /* GPUImageBrightnessFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D21EAFF506C4007CE302C84745D0716 /* UIImage+CameraFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C7CBF8F3B6A4907DEE53FB56BF09EE /* UIImage+CameraFilters.m */; };
 		5D55016A0D32F6E903752F17EAE6BD92 /* GPUImagePicture.h in Headers */ = {isa = PBXBuildFile; fileRef = E034C77C822D1DA73E8434CC34E3D750 /* GPUImagePicture.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D85C2AD3E8DF7D8733A8E379B780838 /* IRCameraColor.h in Headers */ = {isa = PBXBuildFile; fileRef = F6B17A7B1EE148C2B3EAFDBEB396D2CA /* IRCameraColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D912577FC0E20EFC059B29EE3D1FDA5 /* GPUImageExclusionBlendFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 715AA31F104CC6D6DDAA08921AAEB240 /* GPUImageExclusionBlendFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		5EC3ADD14F609ECE10FE01D0BCB3B7F4 /* GPUImageToonFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7B8C236BE77F43AF2C41FFC62F6C67 /* GPUImageToonFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		60984351E3C028331EC7665EAA774C62 /* GPUImageNormalBlendFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E72E4F31CD1D05ABC3E1E368007D39 /* GPUImageNormalBlendFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -186,33 +184,34 @@
 		6555DB4D6A497A010D9A0AEAB89BB56D /* GPUImageMultiplyBlendFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5142479EBD89E4B90C7662012AB36262 /* GPUImageMultiplyBlendFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		65F19CC31300F78CAC0B5CB56CCA38DC /* GPUImageLocalBinaryPatternFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A93A0572AF0B4FED75FB34BCEB37296 /* GPUImageLocalBinaryPatternFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		66E0568D2DAC1CB42A9304940BE63F4F /* GPUImageGaussianBlurFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AD5DF64616A1621172EB0E64CF527A /* GPUImageGaussianBlurFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		66EBED397312B8E846A97A6E4A6258E7 /* IRPhotoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D0D68FCD6FD2BA5C3C3270FDA24E4A9B /* IRPhotoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67985E46BEF2BE9FB2B120586116A2A8 /* GPUImageTwoPassFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B4D9E42E4877D547D923705B4EF5719 /* GPUImageTwoPassFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67DD9F014028E92E0686D7A24549BA40 /* GPUImageFourInputFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D963A772733EA9DEEE20E2EEC4CB29 /* GPUImageFourInputFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		6832B66D2AFF3CFA858BA44E4B815EF7 /* GPUImageFilterPipeline.h in Headers */ = {isa = PBXBuildFile; fileRef = 46E19F764AA1A408997D1C9605C5C7ED /* GPUImageFilterPipeline.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		699C130C953927D66E0380F8F4F9C498 /* GPUImageSingleComponentGaussianBlurFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC929BF586CD54259BAC683B4A327A4 /* GPUImageSingleComponentGaussianBlurFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		69D6DE4A46B61D6DF6249319CAE95BC4 /* IRCameraSticker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F10C07995EC9684976FF14509909CF3 /* IRCameraSticker.framework */; };
-		69ECBF043B5F00184CB42AF7266EA041 /* IRAssetImageFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C6CF1652EB4B686DBA15D19ECF58C0 /* IRAssetImageFile.m */; };
 		6A8013765037359F940DECAA71622A7F /* GPUImageiOSBlurFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 86DF1F8AB220B6CF7573AF3A41D2F0A5 /* GPUImageiOSBlurFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B31CB1B3E59B60897BF97260342C5A9 /* IRCameraSlideDownView.h in Headers */ = {isa = PBXBuildFile; fileRef = B2CEFB1786EACDC302D474BBECB4EA90 /* IRCameraSlideDownView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B7BA15E9EFC786159FC08092179377F /* GPUImageHueFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 02037999CD306DEBA6829BF9CE96A66A /* GPUImageHueFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CC69DC3B9E1F63DEF7AD3D6290800E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 190A2DB8B55DFA3AB5AEFC7B1A1509AA /* Foundation.framework */; };
 		6D7F3E5471F1EB85ACCEF921C43FB368 /* GPUImageThresholdedNonMaximumSuppressionFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 513E41BDA07A54B9D6E90A4D837A5CC5 /* GPUImageThresholdedNonMaximumSuppressionFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D9317AE6D7A29F23D55A270B73DFD51 /* GPUImageExposureFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = D6ED0736A8FB21BA3F95F0CBC9959DCA /* GPUImageExposureFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		6DAC02784B75D6445E0225FE6078D030 /* GPUImageColorBlendFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0224ABA09563CD180EDE0D97E118B3C7 /* GPUImageColorBlendFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		6EE9C32BAA05B6F4567B8BCEA62B6E02 /* GPUImageUnsharpMaskFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 90816089605C5F5AE6B2C8DB8D111EF4 /* GPUImageUnsharpMaskFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6F13DF05A716423AF4EF6B428B714262 /* IRCameraGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF0E79BECD9CB036D5D408E1B0C5C0 /* IRCameraGrid.m */; };
+		7032B1BE0AF2930E9D3BFC6544BFFD1B /* IRAssetImageFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C6CF1652EB4B686DBA15D19ECF58C0 /* IRAssetImageFile.m */; };
 		7112618BBF98252C3923764F6C21A3F2 /* GPUImageTwoPassTextureSamplingFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4633F2273855954EBD1BEA08700D1064 /* GPUImageTwoPassTextureSamplingFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		719FA0C7C6A2344C33DE55D1C74A38A6 /* GPUImageCannyEdgeDetectionFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E9AB220A59FCD0BDDA6B4CC8C291F3D /* GPUImageCannyEdgeDetectionFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		71CC5DF698F76CE106F6D63A65383E46 /* GPUImageRGBOpeningFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE56CE59FF2D75EE2996DB7698B3ED0 /* GPUImageRGBOpeningFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		71E539C710B86583A39390394B572023 /* GPUImageSolidColorGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F656BA209D73A7AF25608B64D527C673 /* GPUImageSolidColorGenerator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		72460B9A066DD6352C67E5A6CE996821 /* GPUImageSobelEdgeDetectionFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = D3CF94DC0343F51F8DFD229B29F85F09 /* GPUImageSobelEdgeDetectionFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73B507CDE8E76A9B0F2640F5502685F3 /* IRCameraSlideUpView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A48F47C7CBE3C62965119BC7D8A4E8F /* IRCameraSlideUpView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7517EC83457EFDA431F2258A68DC3945 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E7123CDB0995B5A4B52C9191AEB7DA /* AVFoundation.framework */; };
-		753CFF7926CA843538CCD897F3C4FA96 /* IRCameraViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 19251B2533581358E8DC7366FB85F32F /* IRCameraViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75A608CCB6CFDE9AB475076FA6918F21 /* IRCameraColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4E58F06B1819F7B8D57A5B1E2AC723 /* IRCameraColor.m */; };
-		77907F9EBB409505CB093D41603883F0 /* IRAssetsLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1528CAB1021B0FA6DA5CD3911BC234 /* IRAssetsLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		77B36FBA5D4F73C4EA827D6663FEDA2B /* GPUImageRGBErosionFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = E490506B1DFB1C38DFCFC03200DF857B /* GPUImageRGBErosionFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77BC8270C83DE08A005C10823EF808FC /* IRCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 451E75F92F63AE4ADDAB54B21D7F77DE /* IRCamera.m */; };
 		79835993E32F06CA0EEEB5DC57BF83D6 /* GPUImageOverlayBlendFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D3D70895F94B31334EC17BA5B3F9FB /* GPUImageOverlayBlendFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		79C0B23880FF2513CFA3242556103541 /* GPUImageChromaKeyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 814E2C51BAD4A1E27D88B45AFF6DDB3C /* GPUImageChromaKeyFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		7A29D7905D4AE066FF28835A14D49738 /* GPUImagePixellateFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = A11D4C24CDC8A9318B3A38AF9C8E2CDC /* GPUImagePixellateFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7AE3FF4F492650CB803D94427D28C369 /* IRCameraSticker+OpenGL.m in Sources */ = {isa = PBXBuildFile; fileRef = 9136A16E795BFE15ABC8754DF024E36E /* IRCameraSticker+OpenGL.m */; };
+		7B5D61819501CF1C4994B39CDFDDC3A5 /* IRCameraShot.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5E6E8C98D74B6B2BBF74F23E1F70FE /* IRCameraShot.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E1AE2F57EC043A136FBC9902DF2C4C4 /* GPUImageOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 3214C86791BFF4E172912CE91A54C0D7 /* GPUImageOutput.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		7E457EBAC1A221ECDB314A4EE9FEBC8E /* Pods-demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 919022BC48F9439E29669B27B83A8482 /* Pods-demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E52437778CB708F72D1254A2652E488 /* GPUImageLuminanceRangeFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = E164B1E309CB53FE9E4A3A362B4B4C1D /* GPUImageLuminanceRangeFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -224,22 +223,17 @@
 		8030B4AD88A97B816DF12E1B8A42C9F9 /* GPUImageSubtractBlendFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = AF89E5E033D28C285EB291479EA18BAF /* GPUImageSubtractBlendFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8041BB31CB676AD4D52B91B8B9A241D0 /* IRCameraStickerFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CCD78599EED1F56CF3B520C34E2CF69 /* IRCameraStickerFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8081EAAE7EAB3FCF39003BF5D7A2FD4F /* GPUImageLuminanceThresholdFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A346F1D4CCFC85415E13CC9B1EDD536 /* GPUImageLuminanceThresholdFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		8137636ABB8F8BCEB0447FDD91E952DC /* IRAssetsLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 409DD1FCA0D3CEB23ADEA4F52D92D029 /* IRAssetsLibrary.m */; };
 		8211D484B398C83F664E7F85676DE8D6 /* GPUImageCrosshatchFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D93BDE498DA6AC386CB5A985B008051 /* GPUImageCrosshatchFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8245F15FE3D2EDC9AA2A9A5AD5890243 /* GPUImageDivideBlendFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 41D0F027355E690BA82057CC1DAF3A90 /* GPUImageDivideBlendFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		826690E93ECE5694C759F28CB2B36D8C /* GPUImageGrayscaleFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = DE6D7DF0D91D3E3496815FA207170F6F /* GPUImageGrayscaleFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8271F6F37536C2CE862D3B579AA565F2 /* GPUImageColorConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A8C2D473EFA3FE703B3CA5730315714 /* GPUImageColorConversion.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8272BF4C8C7F16143B566C44A5DF06C0 /* GPUImageBoxBlurFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6B2144BF678197E6F4F2E45C805E4F /* GPUImageBoxBlurFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		82C107ADCB502A7D7394E97ABE5714B8 /* GPUImageOpeningFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = E80D83A5D3D0C558FB05DF3107D9BDF4 /* GPUImageOpeningFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		833CD7F89C648C6FF501EEA19DD8E73A /* IRCameraToggle.m in Sources */ = {isa = PBXBuildFile; fileRef = A4534291631A7E995CF6153DB6FC870B /* IRCameraToggle.m */; };
 		8407AEF1C1E6C88E6C31D97715F4734E /* GPUImageRGBOpeningFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = EDF838B4A7B83F9E7D6C20978AB1420B /* GPUImageRGBOpeningFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84660E144A7F8853B9143FD5EF96B3B7 /* IRCameraFlash.h in Headers */ = {isa = PBXBuildFile; fileRef = E3EC3D4699F9BEF6A7A0B4C529AA14EA /* IRCameraFlash.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8626168818DF7E62C3070F3EA78C6F73 /* GPUImageGlassSphereFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF557B98F25C9FDE2273828EF88CE79 /* GPUImageGlassSphereFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		86D698794305C79152BFF6471BA9A732 /* IRTintedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8F5FEC6E505F8A9CB59D6278D29345 /* IRTintedLabel.m */; };
 		86D7846740912509B4337BB3690D8469 /* GPUImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D9F9242BF08CEC5C71B1F559A10F647 /* GPUImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89AD680ADE016BD91AB818E3511BAA70 /* GPUImageChromaKeyBlendFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3192502E16F4D60DF7ACC03E82624401 /* GPUImageChromaKeyBlendFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		89B4DC5FC1CBDFAAE100DAF546359765 /* GPUImageOpeningFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCD1BE89EA14D12447D769D89E7F00C /* GPUImageOpeningFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		89FD3A698935D94BBF209221C44C0117 /* IRCameraFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C84EA88984BD2F97B31B44E2C997FE /* IRCameraFilterView.m */; };
 		8A2E86E52C15206561126008F25EF288 /* GPUImageGaussianBlurPositionFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 44E8C0AC850728AEDD3550064F2ED530 /* GPUImageGaussianBlurPositionFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A39BA6FA6A3F1C58749F2D871412638 /* GPUImageDivideBlendFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = D4920D9D259A7B1EA9E7A863C0715927 /* GPUImageDivideBlendFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		8B21AF3EDFD7C943A3B5BCF313ABCF3D /* GPUImageSepiaFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A076CACE48A7801778DC73F0845A1E3 /* GPUImageSepiaFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -258,34 +252,32 @@
 		92C3498CCF10CFF76DA77A5DA1C53CB6 /* GPUImageBilateralFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C29557321723D62C4CCD2E9CD2C9E6D /* GPUImageBilateralFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		93F39890D229767EDB3502A04F56F1DC /* GPUImageEmbossFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = B4D3310C84233FFBEB84F510103B11D0 /* GPUImageEmbossFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94520AA110F70B1FF7B6168762D522BB /* IRCameraSticker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A462FFC64D81784CBA6A4C0A9ECF545 /* IRCameraSticker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95805A0F7C4B9FBAF6626D3E819F5AA0 /* IREffectCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1D68C5A9E0E59844B3902F7C21ABB1 /* IREffectCamera-dummy.m */; };
-		95E7CBEE26E110126AAE713DCC8D4479 /* IRCameraNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FF3E83080E05765B1C3F92FB258825F /* IRCameraNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94E39AD3D88941E08472AC3089263E9D /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F593349AE301A8D35990C1EB88EA31 /* Utility.m */; };
+		95ADA0DB04D3239B07DF79F97F0B2BE2 /* IRAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE9FC77FEB53CE7A59503F9ED0D5CB8 /* IRAlbum.m */; };
 		969BE7F9A8592DFBFDE824B9706F87DF /* GPUImageSoftLightBlendFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 213A9CD1B582BCDB79CCE7E148F8BCCE /* GPUImageSoftLightBlendFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96D2BA5E99F458620F5CE9D07E20DD96 /* GPUImagePoissonBlendFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EEA1E8540A07BF149F5F73AF5A0C575 /* GPUImagePoissonBlendFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9729BAF9B3BBB8049CBDE9ED85FFD2F3 /* GPUImageDifferenceBlendFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8151DABA3A1E04FD10C5A9DDD7883544 /* GPUImageDifferenceBlendFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		98496EB7A25EEEDC52C9C1E5047D4175 /* GPUImageHalftoneFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = A01E7737DF73E6F2E708D9CB2829AA71 /* GPUImageHalftoneFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98AF7786A750F915CE702B489894325A /* GPUImageVibranceFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = BA864E384D852FF4F0F9C9C4E601DBC7 /* GPUImageVibranceFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98F766E845FE2DBD2F2541994967ED73 /* GPUImageContrastFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DFFD3B9BCA969B364ACFE7066B7197A /* GPUImageContrastFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		99D8683A7139F5549C1C3CB3462D998F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 190A2DB8B55DFA3AB5AEFC7B1A1509AA /* Foundation.framework */; };
 		9A1F6C6F9D00BE936A6F6CB9F40E2043 /* GPUImageColorMatrixFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFFAAC19D9DAF0CEA80C3EB0FBEDC1D /* GPUImageColorMatrixFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		9AEE1F09E4313F01F7F530276DA271D6 /* IRCameraShot.m in Sources */ = {isa = PBXBuildFile; fileRef = EED059AAE622D81364E54AADC155A379 /* IRCameraShot.m */; };
+		9ACDE870ECCE9DD17B7822B256E75DE0 /* IRCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 79773FD0662FE025F1EF64CFB3BD4CF8 /* IRCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C171AAFC44477EE5C4021D7C6F0BA23 /* GPUImagePicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC14B1C4D8EDF19F5777E37E3DCD103 /* GPUImagePicture.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		9C2731D90F427CC51F1877AD95FDEC95 /* GPUImageColorBurnBlendFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B30051328D154C2D02D540F82724CE /* GPUImageColorBurnBlendFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		9CF5E41E8FC6C8013064385FA310A30E /* IRTintedButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 11FBC33F868A8C8E2082BFD9B83A0500 /* IRTintedButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9CFD11A6634F5D5ECA99E0613740545D /* GPUImageLanczosResamplingFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = BFA6A241C7057ECD51CEECFEEC7DA9DD /* GPUImageLanczosResamplingFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9DFEF567B49B09E40CE736C12B431C8B /* GPUImageThreeInputFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDF427128A6BF37F746504A9A79A4B1 /* GPUImageThreeInputFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		9F4FEF5ED94BCEAC012A71A5F8AF5504 /* IRCameraSlideView.h in Headers */ = {isa = PBXBuildFile; fileRef = 588FB15FE74CF23DE719603B8683FB19 /* IRCameraSlideView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9FF1796DBA80C13C24BE75598C124AB3 /* GPUImageColorBlendFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 662CB9CA79A5090F50639A23EA6F1C4F /* GPUImageColorBlendFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9FF54153F5A33F7E85150A95DCC78351 /* GPUImageSolidColorGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EEEA22587E222DC600C46BEC101C126 /* GPUImageSolidColorGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A02A5DDAA46A0F372DBAC9D73E74A3FC /* GPUImageRawDataInput.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E6FAADE108B79B1A01FAAC8E55B506 /* GPUImageRawDataInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A039EADE39ECCDF71F2F11E7D3486F6E /* GPUImagePixellateFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 31343432650FDF0FE7F4F086C15F085E /* GPUImagePixellateFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		A04C25FF15E60B0AB91F46780F8C68CF /* GPUImageHSBFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E46D9D1198C1AFCF33C92349BC5E9E /* GPUImageHSBFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0DC72C0956B795D481073272DD271B3 /* IRCameraSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = D080122842B2F4DBC46418C3843C9197 /* IRCameraSlideView.m */; };
 		A0ED7F649C76A88684B5FBAF7D9F5197 /* GPUImageMaskFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = C8D9713DD71730F0E796CFCC6AC03DF6 /* GPUImageMaskFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1C915D1E87FD2B8F6A1C94986F78FA1 /* GPUImageKuwaharaRadius3Filter.h in Headers */ = {isa = PBXBuildFile; fileRef = AD1F0A20835A374D72C8180AF6BC8FC4 /* GPUImageKuwaharaRadius3Filter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1EB34103F1762B9ED7EBCD3920E4F8D /* IRCameraFocusView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D33BBA62BB00502BEA1B88FBCBF069 /* IRCameraFocusView.m */; };
 		A321CCD3AF78A8E8FE9468F481FF6685 /* GPUImageFalseColorFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = EE0E91F5DF6062474313F705CB47E7C2 /* GPUImageFalseColorFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A36E086584336BDCF1655FD552742749 /* IRCameraFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF5976652C711664FE7D40A4A8BC536 /* IRCameraFunctions.m */; };
 		A3BF0D3A2680C26141C663DDDBA0C86C /* GPUImageDissolveBlendFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = AE751DD4A90325309CA295FB5C993E15 /* GPUImageDissolveBlendFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		A453DFD14A6F1B9613EA4149FCFEC52B /* IRCameraSlideDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AF03186C58A59AA5210BD2DFCB3489 /* IRCameraSlideDownView.m */; };
+		A46F1FB17BD3B2BE999C1FC581B0C46E /* IRCameraToggle.m in Sources */ = {isa = PBXBuildFile; fileRef = A4534291631A7E995CF6153DB6FC870B /* IRCameraToggle.m */; };
 		A482F327A0B7A8980A98D6D064E456FC /* GPUImageLightenBlendFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 52B5554533356E0CB6937B1CD79111A5 /* GPUImageLightenBlendFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A568DE2631288E435F82A8DD1E687D28 /* GPUImageiOSBlurFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B88E15E2BE261BC281E15D6F453B73 /* GPUImageiOSBlurFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		A633CC71F6E9B4FD037EEBFD326123E4 /* GPUImageTransformFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C11AE8694036E131B14D1B0E3220D6E /* GPUImageTransformFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -293,14 +285,12 @@
 		A69841AA24CEC9EC0A4007379D04E468 /* GPUImageThresholdEdgeDetectionFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 674A6CA37EEB23A7633D5A5E297A9FCA /* GPUImageThresholdEdgeDetectionFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		A75D41E5B070A02B24E9DA90C443CB0D /* lookup_miss_etikate.png in Resources */ = {isa = PBXBuildFile; fileRef = E756632893B4E2ECC24BDC892A544F02 /* lookup_miss_etikate.png */; };
 		A8660A8E1C69EDB549C395D1AEDC5E85 /* GPUImageHoughTransformLineDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = FA51B029C744EE4C8FD8BC910788FECA /* GPUImageHoughTransformLineDetector.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		A9A92D2007EB5D02567C2D88D0D46BED /* IRAlbum.h in Headers */ = {isa = PBXBuildFile; fileRef = B28089063098F4D59E7134D047145988 /* IRAlbum.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A9F3B69BFA28DF5A3EAC5621BF95EE13 /* GPUImageLaplacianFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 363D37C780FE36641A3A2DE530AAC66A /* GPUImageLaplacianFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		AA595C7E0DC3BB0FA0041EDD07FEB9FB /* GPUImageHistogramGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = A7694C8BED9325BC1E2D82B39B2184BF /* GPUImageHistogramGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AAA5F43F78656B9F3FFF3D63095BCED6 /* GPUImageAdaptiveThresholdFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5257BBF19764B671D87DCEC9736E2088 /* GPUImageAdaptiveThresholdFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AAB2BB7C2EAA2D03AC4109730FE06E6C /* GPUImagePolkaDotFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1112D6CFA9CABACE5F031631EA48156E /* GPUImagePolkaDotFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB4392950348668EF4EE195A0268461D /* GPUImageColorMatrixFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DE3946F130B8E262795D4062B3E485D /* GPUImageColorMatrixFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB5FEC43C280E7A2AC470A870C5575A2 /* GPUImageAlphaBlendFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 020E0B71A2024558800F641EAB286314 /* GPUImageAlphaBlendFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		AB6A5B8D4924E0AD2EF226D68C89ABB7 /* IRCameraGridView.h in Headers */ = {isa = PBXBuildFile; fileRef = 627626E8A051F7EA14FB66B0D121C578 /* IRCameraGridView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB90B8BB771654EAF1FB7669F34CBBF7 /* GPUImageFramebufferCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E171995AA5405792D12CD42B7B5F400 /* GPUImageFramebufferCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		ABCC6003BD5CD05703413D1045DA5A93 /* GPUImageColorDodgeBlendFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DF6399F31D085DB003295882EBEE96 /* GPUImageColorDodgeBlendFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		AC3CBD873508EE845E089D5CCE1B3E33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 190A2DB8B55DFA3AB5AEFC7B1A1509AA /* Foundation.framework */; };
@@ -312,6 +302,7 @@
 		ADA668BFAAC9CC4E756182B3933A3D07 /* GPUImagePrewittEdgeDetectionFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = B3E284D8E4E9DF3D9EB1068AFB49C09E /* GPUImagePrewittEdgeDetectionFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ADBDB77123B0176A77031C12CF94A561 /* GPUImageBoxBlurFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ED54B87886C231BC51FE0CF2D5E41FE /* GPUImageBoxBlurFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEE5D8875FEE3CE47D2EF8844B14280C /* GPUImageMissEtikateFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C3B9F96A32F83BD43998112046D2423 /* GPUImageMissEtikateFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF970889307D300C03703E2F1FC20BDB /* IRAssetImageFile.h in Headers */ = {isa = PBXBuildFile; fileRef = E99E17E71690428EC5FB44DA80B394C0 /* IRAssetImageFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AFB35E9ED16E907D4CD344B167A60F42 /* GPUImageHighPassFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 553CFB6B33E54DB2F08A082E0247D8C4 /* GPUImageHighPassFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B00A8343E21EF145F282ACB67C0F044F /* GPUImageBulgeDistortionFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 360F6E1C8670F2BF7F46577753812EFE /* GPUImageBulgeDistortionFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		B050027707371CEBA60BAF47B7A0B4C9 /* GPUImageDirectionalSobelEdgeDetectionFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 461B5CC9A921EE951097F00382A036A8 /* GPUImageDirectionalSobelEdgeDetectionFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -321,10 +312,12 @@
 		B104FE5EEA7435482983BDADCCCCE771 /* GPUImageVignetteFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D7776C05CCA8631CD16C8BAA4D2AD9 /* GPUImageVignetteFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		B20D805C85EF6909EFAF4332408C9FA6 /* GPUImageLevelsFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = B336E3802550FCCBF3EC0020F2399B48 /* GPUImageLevelsFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B268AA0F3A10EB6E5D2A85C09A2EE157 /* IRCameraStickersManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CAED5F433C3A39E5FADD661E1B5C910C /* IRCameraStickersManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2E47177B25DF97103D2AD8A6EFEB039 /* IRCameraAuthorizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2139C00F4DF431A8EC8D774027CC4B97 /* IRCameraAuthorizationViewController.m */; };
 		B4107BCB36B59DD8A44F349794F4D82D /* GPUImageVignetteFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 260D707B1CFA20F4BF23941D94F69DE3 /* GPUImageVignetteFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B44EE6C1F3EE1698D1CBF3CFCA277E7E /* GPUImageGaussianSelectiveBlurFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = EC07BBA5E1060FA8F7F34C2F979AB036 /* GPUImageGaussianSelectiveBlurFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		B4F79CDB2F747531FE54A02FF38C2020 /* GPUImageToneCurveFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 875689C4C1DA9D3DC91372EF1A88076C /* GPUImageToneCurveFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		B5709A2549C7FAD8C2BB6E1BB4921190 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9262C3FE09D2DDA515881F6071C37592 /* GPUImage.framework */; };
+		B58032649B80CBDC198F1990307B6011 /* IRCameraAuthorizationViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 2CA4BCF737E1FF91AC93E1807973CE6B /* IRCameraAuthorizationViewController.xib */; };
 		B58C8BDD66832B445481554682CD5FB3 /* GPUImageLuminanceThresholdFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 58909A948F277593DC9143EC654F3D99 /* GPUImageLuminanceThresholdFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5F9F898253F0FE83CC9B12AF5AE7039 /* GPUImageMovieWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A367090BAEA1690FBB4F8C1830E90A4 /* GPUImageMovieWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B67C6E80972B91434D5EE40B20483ECE /* lookup_amatorka.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F9760BB648CBA78130D69D0465BF1AA /* lookup_amatorka.png */; };
@@ -335,39 +328,37 @@
 		BA4313EEAD38B99930748B79E8B385D4 /* GPUImageColourFASTSamplingOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E673826B0B8846378B4C22E0763E6919 /* GPUImageColourFASTSamplingOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB3AA31088B7DFFEB3E3723ED7A6B37B /* GPUImageFASTCornerDetectionFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = DBB966127243E942D42096A5E5A85BF1 /* GPUImageFASTCornerDetectionFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC079A996E0941177951AC7C8F1BF3FA /* GPUImageBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC13E31411639E47987C5002E198430 /* GPUImageBuffer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		BC2A830915A00783EE96D933989F028D /* IRAssetImageFile.h in Headers */ = {isa = PBXBuildFile; fileRef = E99E17E71690428EC5FB44DA80B394C0 /* IRAssetImageFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC210B15FA53F1FC82C4C945CC6F5196 /* IRCameraFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = B24916DBA1907D8401C05AA6520525D6 /* IRCameraFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC42E8B15FF30519E0E6A0C938721A64 /* GPUImageLuminosity.h in Headers */ = {isa = PBXBuildFile; fileRef = 304D0CF14284246C344B602E91D72A11 /* GPUImageLuminosity.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC4BB1392516C5152108A85C4489328D /* GPUImageHighPassFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A20849A4EF1C2E09B466D0871AE055C /* GPUImageHighPassFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BCB511383DD0CE67EB41F755FEA926C3 /* UIImage+CameraFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C7CBF8F3B6A4907DEE53FB56BF09EE /* UIImage+CameraFilters.m */; };
 		BD05718E5D4F2AFE78208932938D7BF1 /* GPUImageSkinToneFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = E45FA1FB107121BC789EDA1B1837058D /* GPUImageSkinToneFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		BD50985E857F73BDDFC376700E9D5474 /* GPUImageWeakPixelInclusionFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2E407197A35DD3FB1CC6D8EA843A98 /* GPUImageWeakPixelInclusionFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		BE5B7EF8EC4C0C93E93D767991069FAE /* IRCameraViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 79ED1E1D4FF2F28985C5FF1350ABBF13 /* IRCameraViewController.xib */; };
 		BF695FB2377DEC9DD981E3BE2C3B73B8 /* IRCameraStickerItem+OpenGL.m in Sources */ = {isa = PBXBuildFile; fileRef = 989DA3C2CE10588BE064405006F47813 /* IRCameraStickerItem+OpenGL.m */; };
 		C05D633945E58F84A7A7E8866B167317 /* GPUImageHistogramFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A43CBFAEE51E3FD6753669782DB7043 /* GPUImageHistogramFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C168252C9C387C26471493C62C8F7B0F /* IRAssetsLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 409DD1FCA0D3CEB23ADEA4F52D92D029 /* IRAssetsLibrary.m */; };
 		C18E885722FF5EBA092441FA64EE139E /* GPUImageClosingFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = C7270DEADC3C5E215A1AAD482AE284DA /* GPUImageClosingFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		C19DD360D9481A2280377B3253E386A4 /* GPUImage3x3TextureSamplingFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFA881133061462E9A07D908326F4ED /* GPUImage3x3TextureSamplingFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		C26795703949977F8CDA54F34DE99D1E /* IRCameraFilterView.h in Headers */ = {isa = PBXBuildFile; fileRef = E4F0DED6B0C510E199ECBE5CC8F6EE14 /* IRCameraFilterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C22B93CB04CAD9D9CC75A3F0628ACABD /* IRCameraNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BF02F8E2F2E9AB68DD4F520723507D /* IRCameraNavigationController.m */; };
 		C3C76F832463DCF0E81A8D89E82E7168 /* GPUImageKuwaharaFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B615A805DA74FA6AE1D9913FA98F791 /* GPUImageKuwaharaFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		C40F05AA4F904D3BE1F61211A90C7AE3 /* GPUImageTiltShiftFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = E2B721298DE90C01F4AB40CB7B3646B4 /* GPUImageTiltShiftFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C494D38AA3EE1C410B32C5F41BF4DC9D /* GPUImageTwoInputFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C291FA8C34CA130E0C6BA31695E2A7C /* GPUImageTwoInputFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5ACB8C92624F033BA0AB91A0610A8E4 /* UIImage+Bundle.h in Headers */ = {isa = PBXBuildFile; fileRef = CECAE8E815F7967935373DDDBEE1CBF5 /* UIImage+Bundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C5C1F3238CA8238D72957F41A6880D58 /* GPUImageCrosshatchFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = E38F85C65FAE1A81FAAED978076E71A2 /* GPUImageCrosshatchFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		C5D29CAA8B3B8A9CF42CC333A044E829 /* GPUImagePoissonBlendFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = E99F11FACB90F8D4338390FE77AC3A2A /* GPUImagePoissonBlendFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		C613E03861C381B0832E921E2857FD78 /* GPUImageSaturationFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 937E7C6CAD2B1F29ADFF8DC2AF769DF3 /* GPUImageSaturationFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C638450D1E719C7C27DDF5F7D4A8CB24 /* GPUImageHoughTransformLineDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 03C2BC6D60E3AD92E25BE30392160720 /* GPUImageHoughTransformLineDetector.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C70524AF7C7BF4450C042F8DE8422B94 /* GPUImageJFAVoronoiFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6104A4EFA733DD402B6DE6C002A9B85B /* GPUImageJFAVoronoiFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		C85451A5303FC7FF71613FCB3E3986AD /* GPUImageHarrisCornerDetectionFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3680D0C11CE8B341E28BD526E7C6C6 /* GPUImageHarrisCornerDetectionFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		C884ECE790CB945D2BEFFB232A2F205C /* IRPhotoViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = CB373EC3748FDE5887B3F6262F9B45AF /* IRPhotoViewController.xib */; };
 		C91CC659A4381C92D62CE8535F523D86 /* GPUImageFilterPipeline.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB2B07CCE35927A776D0114685FFA61 /* GPUImageFilterPipeline.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		C94B9954FAC93A0349A741725EB7F67E /* IRCameraStickerResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 95040624A41FD01F13342B03D445939D /* IRCameraStickerResources.bundle */; };
-		C97F9E79791964E5FC599799F0128071 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F593349AE301A8D35990C1EB88EA31 /* Utility.m */; };
 		C9CC9B1B16BFB5EF6626224223D7722E /* GPUImageGammaFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6FDD4363FCC42D1C63F9B20B8B0EAE /* GPUImageGammaFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9D9CCA42B70A88F7C4A33426D4997C5 /* GPUImageBulgeDistortionFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC19BE80609F2ED7C6ADBCBD30E41F /* GPUImageBulgeDistortionFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA0CFCC833467BBF4292091133ED370C /* GPUImageSaturationBlendFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9DFE7459002C96F50B81BA7145B9C8 /* GPUImageSaturationBlendFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		CA4322B8DFEF4FE36A6C047E323C9E5A /* GPUImageNobleCornerDetectionFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F779554AC0E16327CC3CED9B8683729 /* GPUImageNobleCornerDetectionFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA8D5C6E691929BE0AF8512D6166A633 /* GPUImageRGBDilationFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 70C958EE20ADEF7D9312BFA708DA20AF /* GPUImageRGBDilationFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CAB207362493A8C8005F2D48499A374F /* GPUImageLookupFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4FC7CE94F41F82A09F604835F43442 /* GPUImageLookupFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CB2DA13C9C3E17D9419C4785813699D5 /* IRTintedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 370A6F9516D9C3A9880EEF4EC7D3E814 /* IRTintedButton.m */; };
 		CB7B61E5FADA7E4BE6296F42E4BE80B2 /* GPUImageHueBlendFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 97DEC7F8CA790CE509429787087A6730 /* GPUImageHueBlendFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CDA33CA4739FDB19F013E66F37E83ADA /* IRCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 79773FD0662FE025F1EF64CFB3BD4CF8 /* IRCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE374772842CE9D5337C5DE329C2EF4C /* IRCameraStickersManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF4DEF4B47DB427149161010F95573D /* IRCameraStickersManager.m */; };
 		CE44A8155ADA880750FE938DF9A631E4 /* GPUImageColorBurnBlendFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CE65ED0EBD738AB35AF2938571C3036 /* GPUImageColorBurnBlendFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF7BDA4E46CBE300DBEAE07D1D58DE61 /* GPUImagePixellatePositionFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = D82B9B10E66D083177F930AC2F627599 /* GPUImagePixellatePositionFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -375,44 +366,53 @@
 		D059B863FC04060C626E58417C782FAA /* GPUImageThresholdEdgeDetectionFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6346A347E7E35CC1CEEF8D335B37EDAF /* GPUImageThresholdEdgeDetectionFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D07727E1B9718147B3036DE4131E20DE /* GPUImageUnsharpMaskFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B8C4F40C3C250C7679B12472C4E5BF /* GPUImageUnsharpMaskFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D09765756D40C6BF89503CD6A99C55CD /* GPUImageMovie.h in Headers */ = {isa = PBXBuildFile; fileRef = A907A21B7B9EE45CA5F8E3238B34BB94 /* GPUImageMovie.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1F3D1BE81D6F72A6E649B1ED5F9BA8C /* IRCameraSlideUpView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A48F47C7CBE3C62965119BC7D8A4E8F /* IRCameraSlideUpView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D22F8FC188493259AE93051EDBAC60D6 /* GPUImageFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 22D59AA60F6A23A78468F46D9F4B6318 /* GPUImageFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D293BB26975A71ECF6E4BA096CC372EC /* GPUImageErosionFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5B13F38BA8ED54EC255EC8CA2F5D88 /* GPUImageErosionFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		D3180AD5A4AEBD102A12696DC4C65518 /* GPUImagePosterizeFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = DC20BD3AFBBCCB5DE3EBACFA152AA962 /* GPUImagePosterizeFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D34B440DD26F23CE645D5F0544FB0A65 /* GPUImageLuminanceRangeFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = EC987A76A6EB8787797BE2EEDA32AA34 /* GPUImageLuminanceRangeFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		D366F6B4AB7B4BEC963E32EB585EE708 /* IRCameraGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF0E79BECD9CB036D5D408E1B0C5C0 /* IRCameraGrid.m */; };
 		D388DEF676BAC8656E91FB87616CB4E0 /* GPUImageSketchFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EEC12D72F8271DE4A0E4E0C1B07C7D6 /* GPUImageSketchFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D395F7A908AB15E8B55838746E96E01C /* lookup_soft_elegance_2.png in Resources */ = {isa = PBXBuildFile; fileRef = A965345D0C6EAAA80CA885289DFC5B53 /* lookup_soft_elegance_2.png */; };
 		D412CDA05C2D393AF76423641F74C6A2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A56476F06D4554E1706D32CEF40D97 /* QuartzCore.framework */; };
+		D510065DFC869DE11F5ADBB2FEB65F2D /* IRCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6F27F23A0580EE8EFD9E895C6F91B6 /* IRCameraViewController.m */; };
+		D512136956260F5168F2872A70ACD372 /* IRPhotoViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = CB373EC3748FDE5887B3F6262F9B45AF /* IRPhotoViewController.xib */; };
 		D620565DC199D374099A87E34BDAEFA8 /* GPUImageTwoPassFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDC2505079917745E010B72D060675E /* GPUImageTwoPassFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		D7AFBADA1CADD1E192A22D210C08AD12 /* IRCameraAuthorizationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 11D82C3D3DD640924129DFB98AA14B90 /* IRCameraAuthorizationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D72073A59D615DBA63A78089F4E34279 /* IRCameraSticker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F10C07995EC9684976FF14509909CF3 /* IRCameraSticker.framework */; };
+		D7F43D9D86448089AF846BD0B4BE49B1 /* IRCameraToggle.h in Headers */ = {isa = PBXBuildFile; fileRef = 160F6154A0D0B5215ADC8DBDCA96BC09 /* IRCameraToggle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8BB873014910478B68BEC244FC086ED /* GPUImageToonFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 56511390CC5B907FF24145B19817040E /* GPUImageToonFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D934E3D821FBFF2C28E3EFBFDD0EC227 /* GPUImageMotionDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 582A9AAA5A99697D851623044C4E6435 /* GPUImageMotionDetector.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9482A647DF15B2E5024C10D62CD6AC8 /* GPUImageFilterGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E98319EC4D828C11AD6DBD0AD9248D0 /* GPUImageFilterGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D96403375668464AC6535250E5D3A040 /* IRCameraColor.h in Headers */ = {isa = PBXBuildFile; fileRef = F6B17A7B1EE148C2B3EAFDBEB396D2CA /* IRCameraColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA2E6B2F7153340CF21A36C728D453DB /* GPUImageGaussianSelectiveBlurFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 52161937602B6930D87A6BE9F09C6BDA /* GPUImageGaussianSelectiveBlurFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB14E6407F5A65BDDF27839E04FCE006 /* GPUImagePerlinNoiseFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 371878DA41E434B1719EEBC6E3C66276 /* GPUImagePerlinNoiseFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC4C4BE01205369D4ED6A830BA0D8E0A /* GPUImageAlphaBlendFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 779186561591439E1803716365FB9BE2 /* GPUImageAlphaBlendFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC64FCD7035DCA6C438B014C929BFE57 /* GPUImageClosingFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = E17B50570B2DFF4127BBFCC9A8F8D22F /* GPUImageClosingFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC87DF3FE9F3270266EE34A6EA838087 /* IRCameraFlash.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FAE6D8C3174DB6BFDAD2AEF99201BA7 /* IRCameraFlash.m */; };
+		DD3B6258D876E284EAF569CD9BC666D0 /* IRCameraNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FF3E83080E05765B1C3F92FB258825F /* IRCameraNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE7F8C9EBDFB6FD20F7A3527A1603C00 /* IREffectCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = C93E9982B90EBCADA9D4DB7B7559C190 /* IREffectCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DEAEC0296B6A53800BC01244D1F2C239 /* GPUImageTwoInputCrossTextureSamplingFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = A0795EEAFD27D8A2C8F82DB7227BB618 /* GPUImageTwoInputCrossTextureSamplingFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF0A8A3561E525CCA3B2190BB7EADAFD /* IRCameraFocusView.h in Headers */ = {isa = PBXBuildFile; fileRef = 87CBB939291A65B4B9D1D0B388F0A564 /* IRCameraFocusView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFC85122C3232972234001C24FC3217B /* IRCameraGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFE0FC9C67824CA0A650B88A7E600C9 /* IRCameraGridView.m */; };
+		E0F8658D33405F467F1F0C58C4975265 /* IRCameraFocus.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7534901BF735AA65378D77EE3E9956 /* IRCameraFocus.m */; };
 		E16ED01DF243F4185D65CF4EF8571A1F /* GPUImageLaplacianFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EF1C511E270FF6FB82B3B0E4A7CF786 /* GPUImageLaplacianFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E192B2CB0525EBE7D72534867C7D3E4F /* IRCameraAuthorizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2139C00F4DF431A8EC8D774027CC4B97 /* IRCameraAuthorizationViewController.m */; };
-		E1E065838E080EE6A5052FE78CE1C76A /* IRCameraToggle.h in Headers */ = {isa = PBXBuildFile; fileRef = 160F6154A0D0B5215ADC8DBDCA96BC09 /* IRCameraToggle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1EB85B049C1FFC9AB74345C86ACD00D /* GPUImageFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD427FD96CC25835173FE8CBB8B0466 /* GPUImageFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		E2344385855D7DCB046C52195BE79D37 /* GPUImageDirectionalNonMaximumSuppressionFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8AE7096C93495D69D38F19E65B35C2 /* GPUImageDirectionalNonMaximumSuppressionFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		E3045D349D5F9F545E5E5FD4CC1F9EBF /* GPUImageAddBlendFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = A03917C7E7A4BF51BE0EFE1E4BD022B7 /* GPUImageAddBlendFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E33C5E3277848CED2EC36D50C3C019A2 /* GPUImageDarkenBlendFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = EFCDCCCCA4AAABE9FD0D494BADC45FC3 /* GPUImageDarkenBlendFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E45AD71FDCFEA875EB5DAC31B70FCF4C /* GPUImageLinearBurnBlendFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D0C154E23B48DC8DED4DC0602F2302 /* GPUImageLinearBurnBlendFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E47315587E2BEA48393CB59670244368 /* IRCameraGrid.h in Headers */ = {isa = PBXBuildFile; fileRef = 861EF5A45BA6E2CAD58B2499EF95D64C /* IRCameraGrid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4F313F68DA2BBB01D1A01FA8EC947B9 /* IRAlbum.h in Headers */ = {isa = PBXBuildFile; fileRef = B28089063098F4D59E7134D047145988 /* IRAlbum.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E5FBAA425DDE8C18A7BE45A1AB4AD7C0 /* GPUImageHistogramEqualizationFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 58E903D05E067EB95EB597C067E9F5E2 /* GPUImageHistogramEqualizationFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E656C04DED227555C7BDEDA540155E44 /* GPUImageShiTomasiFeatureDetectionFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 96AC35092150EA83DB2E3467AB4BF6AF /* GPUImageShiTomasiFeatureDetectionFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6B453F61552B661AA6B635C04A140A1 /* GPUImageVoronoiConsumerFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3791E4CEB9C1527CBC82BD5BD09633A8 /* GPUImageVoronoiConsumerFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E7E98BC6448E01881F134803484421D6 /* GPUImageDifferenceBlendFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 60D6D701E5E45143810CDA56A446BFD1 /* GPUImageDifferenceBlendFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E87D586023C51AA32E955451EF7C632A /* GPUImageNonMaximumSuppressionFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A639B7F8F6C13C9863DD133299B0A6 /* GPUImageNonMaximumSuppressionFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		E8C31B4191DAC04E870C1BF028B18BA3 /* GPUImageFramebufferCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 677C9D661BB7AAC80A28CC6817178E08 /* GPUImageFramebufferCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E946995DB3C18122A2843DB6DB169B0A /* IRCameraShot.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5E6E8C98D74B6B2BBF74F23E1F70FE /* IRCameraShot.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E99986BB40AE3A8CEBDCF6D5DF27D937 /* IRCameraSticker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B19949F3E03F4EA926621A25909AC4A6 /* IRCameraSticker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA3EDEC4AEE454F0234B4D22DB9303DF /* GPUImageWhiteBalanceFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 767C260FF6B6CD3E0BEDD9145AD4766E /* GPUImageWhiteBalanceFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAEA5D15E74001E75A8EEAC9163EF0DD /* Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = 468CF02CE7ECCC909286F91CCDE0EEB9 /* Utility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB9937D305B6E4E432AAE3FAA34E8691 /* IRTintedButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 11FBC33F868A8C8E2082BFD9B83A0500 /* IRTintedButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC011DCE237626373AF5315448606A5A /* IRCameraSlideUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F16B7F1488A5470ACA97BCADC11B3B1 /* IRCameraSlideUpView.m */; };
 		EC20E770E6BBEEE7F8D9A623E6D6DB97 /* GPUImageAmatorkaFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 907578FE0FFC5C52507914968096BD1F /* GPUImageAmatorkaFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EC3C568316636E766710F8357705E83E /* IRAssetsLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1528CAB1021B0FA6DA5CD3911BC234 /* IRAssetsLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC5C9E4816D812F3D97F9555506EC8C5 /* lookup_soft_elegance_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9203FB9B64DE669AD09E60489D5C9C25 /* lookup_soft_elegance_1.png */; };
 		ECA12D10642BDBFBC23F7E78BF56D29A /* IRCameraSticker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6739F70C8E873A1AC7E91BBF21F162E /* IRCameraSticker-dummy.m */; };
 		ECE70E2B20575395AD83DA9DF30F1464 /* GPUImageScreenBlendFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 712E37C39C6C148C6EDD15074BEA6F13 /* GPUImageScreenBlendFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -420,6 +420,7 @@
 		ED7DBF7ED94A305F80015222F4FF50D6 /* GPUImageHazeFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = DB182CFE301562BB5EB27E2129A34BD5 /* GPUImageHazeFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ED8808E28AA3DD3AB5F8937750424661 /* GLProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C83611A7E276CE7365DA7C6AD46B2 /* GLProgram.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		EE18D866F16E72A5591FC004D312795A /* GPUImageVoronoiConsumerFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1064CE1B71650EFB24541CD04E365F /* GPUImageVoronoiConsumerFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EE7DFE1E9696A61D40E79AE1CC48627E /* IRCameraFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C84EA88984BD2F97B31B44E2C997FE /* IRCameraFilterView.m */; };
 		EEB9CB0A43656083C2019603FE45E9C9 /* GPUImageExposureFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 985A1755F7E21BD043F5B0B5663023A6 /* GPUImageExposureFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F02D900FE77B6A2F4E982227688A36F5 /* GPUImageCannyEdgeDetectionFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDF5C6DDF1066824FDE457208FE4120 /* GPUImageCannyEdgeDetectionFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		F0E338F9C2E2F2A84BA6D3FF2DDF04AB /* GPUImageStretchDistortionFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = CA19E096324FB5AF81D89D2F3ED46CD0 /* GPUImageStretchDistortionFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -428,6 +429,7 @@
 		F2A26D47AC0A35FF7D5A6F42BD361B6E /* GPUImagePolarPixellateFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = C9E851A2D5F82E9574EEE061AB7296C9 /* GPUImagePolarPixellateFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2AE30922F50407133B96A3DFBB66BE8 /* GPUImageBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = D8A36D54D340128E47D336940E5F1377 /* GPUImageBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F470A32C100553CEBFD0A63682913B47 /* GPUImageBilateralFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 902F1D9A3D5A2E073CD7F1127ECC75D4 /* GPUImageBilateralFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F4975717D5F05AB4EDB354F95E175057 /* IRCameraSlideDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AF03186C58A59AA5210BD2DFCB3489 /* IRCameraSlideDownView.m */; };
 		F50311D4B3CAD55DAA8AB111A75F363E /* GPUImagePolarPixellateFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9B2C62375846626C8A39EBFDBB741F /* GPUImagePolarPixellateFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		F55B054EB98C97D090E4BF5A2A4CE35B /* GPUImageHighlightShadowTintFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5034F29ED5F74BB50705320D25F9B80E /* GPUImageHighlightShadowTintFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F5DBCCF94A9782D3A6FE9C8863B2C447 /* IRCameraStickerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B9345AEC0639D19785B4A5EF81574898 /* IRCameraStickerItem.m */; };
@@ -437,7 +439,6 @@
 		F8904FF3A5B05781FAD312AECF571B3B /* GPUImageLuminosityBlendFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 685BC6E2945A355624BDDB2DEBB45253 /* GPUImageLuminosityBlendFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		F8A9FCE3F4F50F872813DE16E38D245F /* GPUImageFourInputFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7166D4A69E6CCB83041024B33DA3017F /* GPUImageFourInputFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA3FC4F46D6A404F505C336CD50223D1 /* GPUImageSketchFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = C9730249DD9A45B8C42DD7078C173561 /* GPUImageSketchFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		FB051AE0BB317FBEA86417EA87F6A83C /* IRCameraViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8E35D477A7AC0ED5AB55317DC1736609 /* IRCameraViewController.bundle */; };
 		FB931119D2CBB44E801EB71263D14521 /* GPUImageColourFASTFeatureDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 9601D5E10E182D57D9AA5712AFFC19DE /* GPUImageColourFASTFeatureDetector.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC2F0D5C4CA9DFCB56F9C2466C489A46 /* GPUImageVibranceFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 552BF5C550128650CB4B6DC3CE442D51 /* GPUImageVibranceFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		FC47A119F1C046865C70DB21F4206E3A /* GPUImagePinchDistortionFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = EF308428018A2F18EF47CA6D4E97E2B0 /* GPUImagePinchDistortionFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -447,12 +448,26 @@
 		FDA639C854D51FE969B8B33E57900428 /* GPUImageChromaKeyFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 68A7EFD09008C61932E9F8B3DCBB2952 /* GPUImageChromaKeyFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE012C9CB65A03B031F37EA68F49E900 /* GPUImageLowPassFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CC2804C5C5A6BB5D095FA8FD37C467 /* GPUImageLowPassFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		FE766B5BD39E14B9F407FD049BA82C00 /* GPUImageMosaicFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C651C5E91FEC83B5FC309285C8D799 /* GPUImageMosaicFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FEDEC18701719C0695E3BB8AD73B2D1F /* IRCameraGrid.h in Headers */ = {isa = PBXBuildFile; fileRef = 861EF5A45BA6E2CAD58B2499EF95D64C /* IRCameraGrid.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF484FD3055C3BD1A2FFD230FFB46514 /* IRCameraNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BF02F8E2F2E9AB68DD4F520723507D /* IRCameraNavigationController.m */; };
+		FF08B6448CBE58C0ED5D3974010C0A1A /* IREffectCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1D68C5A9E0E59844B3902F7C21ABB1 /* IREffectCamera-dummy.m */; };
+		FF2A5C135B3BA75D61575B3DE889F007 /* IRPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E59204694272CD46B099930BB6520FFE /* IRPhotoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		05B2B2F1C700CE147073B33551885939 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB13B1641D72A72D8C9AE53FF81C8950;
+			remoteInfo = GPUImage;
+		};
 		17A9AB824BF101F41F4521D73EB04A81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 307FE794D5B3FA918E0DE9AC59ACD37C;
+			remoteInfo = IRCameraSticker;
+		};
+		2BF14141702E6C679EA943436A868880 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -479,13 +494,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = DB13B1641D72A72D8C9AE53FF81C8950;
 			remoteInfo = GPUImage;
-		};
-		F842B6E4D6C2FE40DBF6168BBE2DF965 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 307FE794D5B3FA918E0DE9AC59ACD37C;
-			remoteInfo = IRCameraSticker;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -977,21 +985,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8B7529CA53E3FB8DFDEA8FE3AB72D2FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CC69DC3B9E1F63DEF7AD3D6290800E0 /* Foundation.framework in Frameworks */,
+				17FF34700B1314C97EA91877DC41BECC /* GPUImage.framework in Frameworks */,
+				D72073A59D615DBA63A78089F4E34279 /* IRCameraSticker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B7652D7AA0D1F7D276D64882848EF7E8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				275475A0E192AB238EFBD2B8A9347D20 /* Foundation.framework in Frameworks */,
 				B5709A2549C7FAD8C2BB6E1BB4921190 /* GPUImage.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E89F7FAAEA8227FC92F00A6916D899FF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				99D8683A7139F5549C1C3CB3462D998F /* Foundation.framework in Frameworks */,
-				69D6DE4A46B61D6DF6249319CAE95BC4 /* IRCameraSticker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1882,38 +1891,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF3BA28A3B6F28A0AD3B9179ACBAC15E /* Headers */ = {
+		65DFA05D5AE3351A899DF94334A4315F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9A92D2007EB5D02567C2D88D0D46BED /* IRAlbum.h in Headers */,
-				BC2A830915A00783EE96D933989F028D /* IRAssetImageFile.h in Headers */,
-				77907F9EBB409505CB093D41603883F0 /* IRAssetsLibrary.h in Headers */,
-				CDA33CA4739FDB19F013E66F37E83ADA /* IRCamera.h in Headers */,
-				D7AFBADA1CADD1E192A22D210C08AD12 /* IRCameraAuthorizationViewController.h in Headers */,
-				5D85C2AD3E8DF7D8733A8E379B780838 /* IRCameraColor.h in Headers */,
-				C26795703949977F8CDA54F34DE99D1E /* IRCameraFilterView.h in Headers */,
-				84660E144A7F8853B9143FD5EF96B3B7 /* IRCameraFlash.h in Headers */,
-				3C69EA311BB57072F9DA4AF6F82A27DC /* IRCameraFocus.h in Headers */,
-				DF0A8A3561E525CCA3B2190BB7EADAFD /* IRCameraFocusView.h in Headers */,
-				06853CF753C2725825C3E9C00075A6BC /* IRCameraFunctions.h in Headers */,
-				FEDEC18701719C0695E3BB8AD73B2D1F /* IRCameraGrid.h in Headers */,
-				AB6A5B8D4924E0AD2EF226D68C89ABB7 /* IRCameraGridView.h in Headers */,
-				95E7CBEE26E110126AAE713DCC8D4479 /* IRCameraNavigationController.h in Headers */,
-				E946995DB3C18122A2843DB6DB169B0A /* IRCameraShot.h in Headers */,
-				3168013F534D68030AD5C257A6E89CCF /* IRCameraSlideDownView.h in Headers */,
-				73B507CDE8E76A9B0F2640F5502685F3 /* IRCameraSlideUpView.h in Headers */,
-				9F4FEF5ED94BCEAC012A71A5F8AF5504 /* IRCameraSlideView.h in Headers */,
-				E1E065838E080EE6A5052FE78CE1C76A /* IRCameraToggle.h in Headers */,
-				753CFF7926CA843538CCD897F3C4FA96 /* IRCameraViewController.h in Headers */,
-				50DD7AA67C14B67DAF461FF94C30073A /* IREffectCamera-umbrella.h in Headers */,
-				45D0945A1D293818FB7E34CEA61F3A47 /* IREffectCamera.h in Headers */,
-				15C1EC9BF68F9D49851D00624BE461EB /* IRPhotoViewController.h in Headers */,
-				9CF5E41E8FC6C8013064385FA310A30E /* IRTintedButton.h in Headers */,
-				37C144D4BEA66AD875391F3B1329046D /* IRTintedLabel.h in Headers */,
-				C5ACB8C92624F033BA0AB91A0610A8E4 /* UIImage+Bundle.h in Headers */,
-				12D08140BABF42901960D0EB127343CE /* UIImage+CameraFilters.h in Headers */,
-				2179DB8C2DB2128036B76A7965C76A86 /* Utility.h in Headers */,
+				E4F313F68DA2BBB01D1A01FA8EC947B9 /* IRAlbum.h in Headers */,
+				AF970889307D300C03703E2F1FC20BDB /* IRAssetImageFile.h in Headers */,
+				EC3C568316636E766710F8357705E83E /* IRAssetsLibrary.h in Headers */,
+				9ACDE870ECCE9DD17B7822B256E75DE0 /* IRCamera.h in Headers */,
+				5990ABF07599C124CB97805727C96C2B /* IRCameraAuthorizationViewController.h in Headers */,
+				D96403375668464AC6535250E5D3A040 /* IRCameraColor.h in Headers */,
+				44149DD0CB329AFCEAE6EBB3855A743A /* IRCameraFilterView.h in Headers */,
+				27E76627DE8F90ABB89ED1CC3D6A0260 /* IRCameraFlash.h in Headers */,
+				57F2CED0C2EC924C8D8EEACCE28221B2 /* IRCameraFocus.h in Headers */,
+				0CFD909B1ECB9839C89023B87DC623E3 /* IRCameraFocusView.h in Headers */,
+				BC210B15FA53F1FC82C4C945CC6F5196 /* IRCameraFunctions.h in Headers */,
+				E47315587E2BEA48393CB59670244368 /* IRCameraGrid.h in Headers */,
+				0A788B6F2EA3861912403846D8259646 /* IRCameraGridView.h in Headers */,
+				DD3B6258D876E284EAF569CD9BC666D0 /* IRCameraNavigationController.h in Headers */,
+				7B5D61819501CF1C4994B39CDFDDC3A5 /* IRCameraShot.h in Headers */,
+				6B31CB1B3E59B60897BF97260342C5A9 /* IRCameraSlideDownView.h in Headers */,
+				D1F3D1BE81D6F72A6E649B1ED5F9BA8C /* IRCameraSlideUpView.h in Headers */,
+				0BF6B082059D263A6099F4773D8C2D3E /* IRCameraSlideView.h in Headers */,
+				D7F43D9D86448089AF846BD0B4BE49B1 /* IRCameraToggle.h in Headers */,
+				4F5535C388723CC32FE0C60439EBBF08 /* IRCameraViewController.h in Headers */,
+				21F17DB4B3840F2E7EFFFAFDA227D73E /* IREffectCamera-umbrella.h in Headers */,
+				DE7F8C9EBDFB6FD20F7A3527A1603C00 /* IREffectCamera.h in Headers */,
+				66EBED397312B8E846A97A6E4A6258E7 /* IRPhotoViewController.h in Headers */,
+				EB9937D305B6E4E432AAE3FAA34E8691 /* IRTintedButton.h in Headers */,
+				50C46C547FE5A30F2CC722ACB6A22478 /* IRTintedLabel.h in Headers */,
+				0277CE192DEA1CCC97365C11BF01063C /* UIImage+Bundle.h in Headers */,
+				5936FD814253DFAA86D56DACCCBF7517 /* UIImage+CameraFilters.h in Headers */,
+				EAEA5D15E74001E75A8EEAC9163EF0DD /* Utility.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1962,17 +1971,18 @@
 		};
 		72B3944597770B9077BA7E83C4188774 /* IREffectCamera */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 73B03DA075E52936AC84781D4B4D8BED /* Build configuration list for PBXNativeTarget "IREffectCamera" */;
+			buildConfigurationList = 732887102216DF32E2CCE7162ACB1270 /* Build configuration list for PBXNativeTarget "IREffectCamera" */;
 			buildPhases = (
-				EF3BA28A3B6F28A0AD3B9179ACBAC15E /* Headers */,
-				984EA1720902A9D21038124C82B1FC3C /* Sources */,
-				E89F7FAAEA8227FC92F00A6916D899FF /* Frameworks */,
-				FE5B03DB65ACCC69C05D2706311639C2 /* Resources */,
+				65DFA05D5AE3351A899DF94334A4315F /* Headers */,
+				775E58F29511BD3C4E54BFB535400D67 /* Sources */,
+				8B7529CA53E3FB8DFDEA8FE3AB72D2FD /* Frameworks */,
+				B79C0EF3803D6456371223CB98EDAC41 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3F4F6FCE0F6E1C7CFDCDA4B9E676B07D /* PBXTargetDependency */,
+				E2091006CBA8025FBF6072530DB11008 /* PBXTargetDependency */,
+				A8E78B2B3FDD2F2F844A831D8AF74CD7 /* PBXTargetDependency */,
 			);
 			name = IREffectCamera;
 			productName = IREffectCamera;
@@ -2036,6 +2046,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B79C0EF3803D6456371223CB98EDAC41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17FF7E2F4A5D21B5C8704DD8C0D51FBC /* IRCameraViewController.bundle in Resources */,
+				079DAAD882417B2FBAED91361024A430 /* IRCameraViewController.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CE070AB1862A5F85067BA2728B5B73A4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2055,15 +2074,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE5B03DB65ACCC69C05D2706311639C2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FB051AE0BB317FBEA86417EA87F6A83C /* IRCameraViewController.bundle in Resources */,
-				2F3BA544854AE6EDEFEFD1B8FE704E75 /* IRCameraViewController.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -2078,6 +2088,43 @@
 				BF695FB2377DEC9DD981E3BE2C3B73B8 /* IRCameraStickerItem+OpenGL.m in Sources */,
 				F5DBCCF94A9782D3A6FE9C8863B2C447 /* IRCameraStickerItem.m in Sources */,
 				CE374772842CE9D5337C5DE329C2EF4C /* IRCameraStickersManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775E58F29511BD3C4E54BFB535400D67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95ADA0DB04D3239B07DF79F97F0B2BE2 /* IRAlbum.m in Sources */,
+				7032B1BE0AF2930E9D3BFC6544BFFD1B /* IRAssetImageFile.m in Sources */,
+				C168252C9C387C26471493C62C8F7B0F /* IRAssetsLibrary.m in Sources */,
+				77BC8270C83DE08A005C10823EF808FC /* IRCamera.m in Sources */,
+				B2E47177B25DF97103D2AD8A6EFEB039 /* IRCameraAuthorizationViewController.m in Sources */,
+				B58032649B80CBDC198F1990307B6011 /* IRCameraAuthorizationViewController.xib in Sources */,
+				1EAB64F53300EFFBE23C745A434D4A5E /* IRCameraColor.m in Sources */,
+				EE7DFE1E9696A61D40E79AE1CC48627E /* IRCameraFilterView.m in Sources */,
+				23239E606231A68B74E0F608AF62D42F /* IRCameraFlash.m in Sources */,
+				E0F8658D33405F467F1F0C58C4975265 /* IRCameraFocus.m in Sources */,
+				A1EB34103F1762B9ED7EBCD3920E4F8D /* IRCameraFocusView.m in Sources */,
+				A36E086584336BDCF1655FD552742749 /* IRCameraFunctions.m in Sources */,
+				6F13DF05A716423AF4EF6B428B714262 /* IRCameraGrid.m in Sources */,
+				DFC85122C3232972234001C24FC3217B /* IRCameraGridView.m in Sources */,
+				C22B93CB04CAD9D9CC75A3F0628ACABD /* IRCameraNavigationController.m in Sources */,
+				2931991C4023A1A49B90C38B2AABDA14 /* IRCameraShot.m in Sources */,
+				F4975717D5F05AB4EDB354F95E175057 /* IRCameraSlideDownView.m in Sources */,
+				EC011DCE237626373AF5315448606A5A /* IRCameraSlideUpView.m in Sources */,
+				08C3699F10212A4CA66B3C3B00B95E33 /* IRCameraSlideView.m in Sources */,
+				A46F1FB17BD3B2BE999C1FC581B0C46E /* IRCameraToggle.m in Sources */,
+				D510065DFC869DE11F5ADBB2FEB65F2D /* IRCameraViewController.m in Sources */,
+				4EF8250C9A03A6F9BAB68DF7CB33ADC9 /* IRCameraViewController.xib in Sources */,
+				FF08B6448CBE58C0ED5D3974010C0A1A /* IREffectCamera-dummy.m in Sources */,
+				FF2A5C135B3BA75D61575B3DE889F007 /* IRPhotoViewController.m in Sources */,
+				D512136956260F5168F2872A70ACD372 /* IRPhotoViewController.xib in Sources */,
+				CB2DA13C9C3E17D9419C4785813699D5 /* IRTintedButton.m in Sources */,
+				2ED7FC81A95BFBBE6D40B584CD6FB61F /* IRTintedLabel.m in Sources */,
+				4A8EDEAC3734218528CBE1FBE30B272E /* UIImage+Bundle.m in Sources */,
+				BCB511383DD0CE67EB41F755FEA926C3 /* UIImage+CameraFilters.m in Sources */,
+				94E39AD3D88941E08472AC3089263E9D /* Utility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2262,43 +2309,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		984EA1720902A9D21038124C82B1FC3C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				59168361B8CEE0F6EAC87D5A0EC00FEF /* IRAlbum.m in Sources */,
-				69ECBF043B5F00184CB42AF7266EA041 /* IRAssetImageFile.m in Sources */,
-				8137636ABB8F8BCEB0447FDD91E952DC /* IRAssetsLibrary.m in Sources */,
-				0C0A88F1E975ACF6D7CB3D61DF5F1D1E /* IRCamera.m in Sources */,
-				E192B2CB0525EBE7D72534867C7D3E4F /* IRCameraAuthorizationViewController.m in Sources */,
-				4227716AE2740A3711B80D3805012566 /* IRCameraAuthorizationViewController.xib in Sources */,
-				75A608CCB6CFDE9AB475076FA6918F21 /* IRCameraColor.m in Sources */,
-				89FD3A698935D94BBF209221C44C0117 /* IRCameraFilterView.m in Sources */,
-				DC87DF3FE9F3270266EE34A6EA838087 /* IRCameraFlash.m in Sources */,
-				4BDCF5FF2BFB671C265F7AFE4A82BD87 /* IRCameraFocus.m in Sources */,
-				37F964206FBF573DA40219D1AA33DBCD /* IRCameraFocusView.m in Sources */,
-				117A5AE02EBE606F0C622487070083B5 /* IRCameraFunctions.m in Sources */,
-				D366F6B4AB7B4BEC963E32EB585EE708 /* IRCameraGrid.m in Sources */,
-				3F364510D792E87D524B3AD5A7F6F59A /* IRCameraGridView.m in Sources */,
-				FF484FD3055C3BD1A2FFD230FFB46514 /* IRCameraNavigationController.m in Sources */,
-				9AEE1F09E4313F01F7F530276DA271D6 /* IRCameraShot.m in Sources */,
-				A453DFD14A6F1B9613EA4149FCFEC52B /* IRCameraSlideDownView.m in Sources */,
-				5613CD01E831762ACD97105E0AF0B91F /* IRCameraSlideUpView.m in Sources */,
-				A0DC72C0956B795D481073272DD271B3 /* IRCameraSlideView.m in Sources */,
-				833CD7F89C648C6FF501EEA19DD8E73A /* IRCameraToggle.m in Sources */,
-				4C82D77121563DBEC46EDDC121F59329 /* IRCameraViewController.m in Sources */,
-				BE5B7EF8EC4C0C93E93D767991069FAE /* IRCameraViewController.xib in Sources */,
-				95805A0F7C4B9FBAF6626D3E819F5AA0 /* IREffectCamera-dummy.m in Sources */,
-				2BBE0E15C9B63971447AB2957574FE3C /* IRPhotoViewController.m in Sources */,
-				C884ECE790CB945D2BEFFB232A2F205C /* IRPhotoViewController.xib in Sources */,
-				485C9DF733385518370D14C66F7F29CD /* IRTintedButton.m in Sources */,
-				86D698794305C79152BFF6471BA9A732 /* IRTintedLabel.m in Sources */,
-				44BB176E447F646F79B271FA8B781D9F /* UIImage+Bundle.m in Sources */,
-				5D21EAFF506C4007CE302C84745D0716 /* UIImage+CameraFilters.m in Sources */,
-				C97F9E79791964E5FC599799F0128071 /* Utility.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BEDFBA8D78D57D70A1046FF40EB4BD28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2316,17 +2326,17 @@
 			target = DB13B1641D72A72D8C9AE53FF81C8950 /* GPUImage */;
 			targetProxy = 2E581528B7048BE4E9B053FE19B43EF1 /* PBXContainerItemProxy */;
 		};
-		3F4F6FCE0F6E1C7CFDCDA4B9E676B07D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = IRCameraSticker;
-			target = 307FE794D5B3FA918E0DE9AC59ACD37C /* IRCameraSticker */;
-			targetProxy = F842B6E4D6C2FE40DBF6168BBE2DF965 /* PBXContainerItemProxy */;
-		};
 		68B105E836348282CD75F26ADB446117 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GPUImage;
 			target = DB13B1641D72A72D8C9AE53FF81C8950 /* GPUImage */;
 			targetProxy = EECBDCF8C023E758C436722F65702362 /* PBXContainerItemProxy */;
+		};
+		A8E78B2B3FDD2F2F844A831D8AF74CD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IRCameraSticker;
+			target = 307FE794D5B3FA918E0DE9AC59ACD37C /* IRCameraSticker */;
+			targetProxy = 2BF14141702E6C679EA943436A868880 /* PBXContainerItemProxy */;
 		};
 		C873CBEB583D163D8D2E00FD7AE8E674 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2339,6 +2349,12 @@
 			name = IRCameraSticker;
 			target = 307FE794D5B3FA918E0DE9AC59ACD37C /* IRCameraSticker */;
 			targetProxy = 17A9AB824BF101F41F4521D73EB04A81 /* PBXContainerItemProxy */;
+		};
+		E2091006CBA8025FBF6072530DB11008 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GPUImage;
+			target = DB13B1641D72A72D8C9AE53FF81C8950 /* GPUImage */;
+			targetProxy = 05B2B2F1C700CE147073B33551885939 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -2407,7 +2423,7 @@
 			};
 			name = Debug;
 		};
-		4A6A6AA65C923A84A927B1D91F3E2330 /* Release */ = {
+		31EEE7CED4508065A557E590EEC9E965 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CA9AE6A5F48FE504C68BDC8B63B265B1 /* IREffectCamera.xcconfig */;
 			buildSettings = {
@@ -2436,11 +2452,10 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		70316595C2F2AE9923F8DA14508E87F3 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2501,40 +2516,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		77B402E9B319E0A4C2A82BAB7824F154 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA9AE6A5F48FE504C68BDC8B63B265B1 /* IREffectCamera.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/IREffectCamera/IREffectCamera-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/IREffectCamera/IREffectCamera-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/IREffectCamera/IREffectCamera.modulemap";
-				PRODUCT_MODULE_NAME = IREffectCamera;
-				PRODUCT_NAME = IREffectCamera;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		81969C75193841838673B7B2E17F4B40 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2716,6 +2697,41 @@
 			};
 			name = Debug;
 		};
+		E642086B9EFC0A93DB6BEC0C88593A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA9AE6A5F48FE504C68BDC8B63B265B1 /* IREffectCamera.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IREffectCamera/IREffectCamera-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IREffectCamera/IREffectCamera-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IREffectCamera/IREffectCamera.modulemap";
+				PRODUCT_MODULE_NAME = IREffectCamera;
+				PRODUCT_NAME = IREffectCamera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		FB928CE3608B69765E79977002CF0171 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FC6FBBAA7B90B108CEDED46E68431AC9 /* GPUImage.xcconfig */;
@@ -2790,11 +2806,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		73B03DA075E52936AC84781D4B4D8BED /* Build configuration list for PBXNativeTarget "IREffectCamera" */ = {
+		732887102216DF32E2CCE7162ACB1270 /* Build configuration list for PBXNativeTarget "IREffectCamera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				77B402E9B319E0A4C2A82BAB7824F154 /* Debug */,
-				4A6A6AA65C923A84A927B1D91F3E2330 /* Release */,
+				31EEE7CED4508065A557E590EEC9E965 /* Debug */,
+				E642086B9EFC0A93DB6BEC0C88593A6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -6,5 +6,6 @@ target 'IREffectCamera' do
   use_frameworks!
 
   # Pods for IREffectCamera
+  pod 'GPUImage', :git => 'https://github.com/BradLarson/GPUImage.git', branch: 'master'
   pod 'IRCameraSticker'
 end

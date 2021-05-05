@@ -58,6 +58,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)displayGridView;
 
+- (void)displayFaceSticker;
+
 - (void)changeFlashModeWithButton:(UIButton *)button;
 
 - (void)focusView:(UIView *)focusView inTouchPoint:(CGPoint)touchPoint;

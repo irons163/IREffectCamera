@@ -10,5 +10,6 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/irons163/IREffectCamera.git", :tag => spec.version.to_s }
   spec.source_files  = "IREffectCamera/Classes/**/*.{h,m,xib}"
   spec.resources = ["IREffectCamera/**/*.xcassets", "IREffectCamera/**/*.bundle"]
+  spec.dependency "GPUImage"
   spec.dependency "IRCameraSticker"
 end
